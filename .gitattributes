@@ -1,0 +1,2 @@
+src/resources/assets/js/phantomjs filter=lfs diff=lfs merge=lfs -text
+documentCreator/document-creator.jar filter=lfs diff=lfs merge=lfs -text
