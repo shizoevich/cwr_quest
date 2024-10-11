@@ -1,0 +1,79 @@
+.inline-edit {
+}
+.inline-edit.empty {
+  //color:red;
+}
+.inline-edit input[type="number"]::-webkit-outer-spin-button,
+.inline-edit input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inline-edit input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.inline-edit input[type="number"]::-webkit-inner-spin-button,
+.inline-edit input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+  -moz-appearance:textfield !important;
+}
+
+.buttons-block #cancel-edit-table,
+.buttons-block .confirm-save-table{
+  display: none;
+}
+
+.tab-pane.edit .buttons-block #edit-table{
+  display: none;
+}
+.tab-pane.edit .buttons-block #cancel-edit-table,
+.tab-pane.edit .buttons-block .confirm-save-table{
+  display: inline;
+}
+.buttons-block {
+  margin-bottom: 15px;
+}
+.tab-pane.edit .inline-edit > span{
+  display: none;
+}
+.tab-pane:not(.edit) .inline-edit > input{
+  display: none;
+}
+#insurances-wrapper .tab-content {
+  padding-left: 5px;
+}
+
+#insurances-wrapper .panel.loading {
+  pointer-events: none;
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+}
+#insurances-wrapper .loader {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  z-index: 5000;
+  width: 200px;
+}
+#insurances-wrapper .panel:not(.loading) .loader {
+  display: none;
+}
+
+//.tab-pane table tr:nth-child(odd) td:first-child {
+//  width:160px;
+//}
+@media (max-width: 970px) {
+  #insurances-wrapper .container {
+    width: 100%;
+  }
+  #insurances-wrapper .table-wrapper{
+    max-width: calc(100% + 35px);
+    width: calc(100% + 35px);
+    overflow-x: auto;
+    margin-left: -35px;
+  }
+}
+.insurance-selector {
+  margin-bottom: 15px;
+}

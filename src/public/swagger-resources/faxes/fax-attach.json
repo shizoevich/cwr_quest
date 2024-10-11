@@ -1,0 +1,152 @@
+{
+    "post": {
+      "summary": "Attach fax to patient",
+      "parameters": [
+        {
+          "in": "query",
+          "name": "fax_id",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "example": "1"
+          },
+          "description": "Parameter fax_id, for example fax_id=1"
+        },
+        {
+          "in": "query",
+          "name": "patient_id",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "example": "1"
+          },
+          "description": "Parameter patient_id, for example patient_id=1"
+        },
+        {
+          "in": "query",
+          "name": "status",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minimum": 1,
+            "example": "private"
+          },
+          "description": "Parameter status, for example status private"
+        },
+        {
+          "in": "query",
+          "name": "comment",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "example": "Example"
+          },
+          "description": "Parameter text"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Attach patient to fax",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "Attach patient to fax"
+                  },
+                  "status": {
+                    "type": "int",
+                    "example": 200
+                  }
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Requested object not found.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Requested object not found"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 404
+                  }
+                }
+              }
+            }
+          }
+        },
+        "409": {
+          "description": "Request could not be processed because of conflict.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Request could not be processed because of conflict"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 409
+                  }
+                }
+              }
+            }
+          }
+        },
+        "429": {
+          "description": "Rate limit exceed.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Rate limit exceed"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 429
+                  }
+                }
+              }
+            }
+          }
+        },
+        "500": {
+          "description": "The server encountered an internal error or misconfiguration and was unable to complete your request.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "The server encountered an internal error or misconfiguration and was unable to complete your request"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 500
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,68 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bootstrap-helpers";
+
+//custom styles
+@import "styles";
+
+// Elements
+@import "elements/button";
+@import "elements/table";
+@import "elements/modal";
+@import "elements/content";
+@import "elements/preloader";
+@import "elements/substitution";
+@import "elements/dialog";
+
+// Components
+@import "components/collapse";
+@import "components/modal";
+@import "components/form-tag";
+@import "components/form-list-input";
+@import "components/dropdown";
+@import "components/requested-documents";
+@import "components/table";
+@import "components/alert";
+@import "components/appointment-modal";
+@import "components/calendar";
+@import "components/multistep-form";
+@import "components/tinymce-editor";
+@import "components/multiselect";
+@import "components/fastselect";
+@import "components/photo-editor.scss";
+@import "components/button-question.scss";
+@import "components/reauthorization-requests.scss";
+@import "components/el-select.scss";
+
+// Partials
+@import "partials/layout";
+@import "partials/appointment-modals";
+@import "partials/dashboard";
+
+// Pages
+@import "pages/chart";
+@import "pages/chart_media";
+@import "pages/profile";
+@import "pages/insurance-table";
+@import "pages/timeline";
+@import "pages/salary";
+@import "pages/update-notifications";
+
+.load-more {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0;
+  
+  &.absolute {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+  }
+}

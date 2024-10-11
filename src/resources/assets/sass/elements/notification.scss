@@ -1,0 +1,9 @@
+.el-notification {
+
+  &.notify-field-not-valid {
+
+    .el-notification__content {
+      text-align: left;
+    }
+  }
+}

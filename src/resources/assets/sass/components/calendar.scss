@@ -1,0 +1,41 @@
+.fc td, .fc th {
+  border-color: #ddd;
+}
+
+.appointment-event {
+  width: 100%;
+  background: #409EFF;
+  border-color: #409EFF;
+
+  .fc-event-main-frame {
+    color: white !important;
+  }
+}
+
+.fc-event-past {
+
+  .fc-event-main-frame {
+    //color: black;
+  }
+}
+
+.fc-event-main-frame {
+  color: #fff;
+}
+
+.fc .fc-timegrid-col.fc-day-today {
+  background-color: #d9edf7 !important;
+}
+
+.fc-event-resizable {
+
+  &::before {
+    content: '=';
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

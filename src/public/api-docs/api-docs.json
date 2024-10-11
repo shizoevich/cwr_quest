@@ -1,0 +1,59 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+      "title": "CWR API Documentation",
+      "termsOfService": "http://swagger.io/terms/",
+      "license": {
+          "name": "Apache 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      "version": "1.0.0"
+  },
+  "servers": [
+      {
+          "description": "CWR API Documentation"
+      }
+  ],
+  "paths": {
+    "/ringcentral/faxes": {
+      "$ref": "../swagger-resources/faxes/faxes.json"
+    },
+    "/ringcentral/fax-logs": {
+      "$ref": "../swagger-resources/faxes/fax-logs.json"
+    },
+    "/ringcentral/fax-attach": {
+      "$ref": "../swagger-resources/faxes/fax-attach.json"
+    },
+    "/ringcentral/patients": {
+      "$ref": "../swagger-resources/patient/patient-list.json"
+    },
+    "/ringcentral/faxes/read-status": {
+      "$ref": "../swagger-resources/faxes/fax-read-status.json"
+    },
+    "/ringcentral/faxes/unread-status": {
+      "$ref": "../swagger-resources/faxes/fax-read-status.json"
+    },
+    "/ringcentral/fax-detach": {
+      "$ref": "../swagger-resources/faxes/fax-detach.json"
+    },
+    "/ringcentral/faxes/fax-save": {
+      "$ref": "../swagger-resources/faxes/fax-save.json"
+    },
+    "/ringcentral/faxes/webhook": {
+      "$ref": "../swagger-resources/faxes/fax-webhook.json"
+    },
+    "/ringcentral/faxes/sync-job": {
+      "$ref": "../swagger-resources/faxes/sync-job.json"
+    },
+    "/ringcentral/fax-download": {
+      "$ref": "../swagger-resources/faxes/download-pdf.json"
+    },
+    "/ringcentral/faxes/patient-add-pdf": {
+      "$ref": "../swagger-resources/faxes/patient-add-pdf.json"
+    },
+    "/ringcentral/faxes/patient-remove-pdf": {
+      "$ref": "../swagger-resources/faxes/patient-remove-pdf.json"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+
+https://polestarapp.com/api/v1/visits/a6d081cd-fc57-437f-9250-1f3ced16725c
+{
+  "account_number": null,
+  "calendar_event_id": null,
+  "created_on": "2020-11-27T10:53:55-08:00",
+  "duration": { "value": 60, "units": "minutes" },
+  "id": "a6d081cd-fc57-437f-9250-1f3ced16725c",
+  "location": { "department": "ERW-PSY", "facility": "WOD", "room": null },
+  "notes": null,
+  "patient": {
+    "address": {
+      "address": "5334 LINDLEY AVE UNIT 314",
+      "city": "ENCINO",
+      "country": null,
+      "id": "ce9bbbb3-06ce-47d3-9dd3-11d5d3374996",
+      "latitude": 0.0,
+      "longitude": 0.0,
+      "postal_code": "91316-3701",
+      "state": {
+        "id": "3a343bf0-456a-4ae2-944f-977e8293bada",
+        "name": "California",
+        "code": "CA"
+      },
+      "address_lines": ["5334 LINDLEY AVE UNIT 314", "ENCINO, 91316-3701"]
+    },
+    "alternate_phone_number": null,
+    "alternate_phone_number_2": null,
+    "counselor": {
+      "email": "michael.agress@kp.org",
+      "first_name": "Michael",
+      "id": "5a93c642-9a16-4f98-a9df-4650f675199d",
+      "last_name": "Agress",
+      "username": "P091410",
+      "created_at": "2015-10-10T04:36:14-07:00",
+      "role": {
+        "id": "2a183bec-986a-4a48-b640-5bbc52b60ff9",
+        "name": "Patient Administrator"
+      }
+    },
+    "diagnosis": null,
+    "dob": "1944-01-10",
+    "education_level": null,
+    "email": null,
+    "ethnicity": {
+      "id": "ec9f9370-5e37-4cc4-a11f-b0ba064ba218",
+      "name": "American/United States",
+      "order": 14
+    },
+    "first_name": "LEZLEE",
+    "id": "da8e5a10-6136-47a0-8f41-24e8241c971a",
+    "identifies_as_sex": null,
+    "insurance_copay": null,
+    "insurance_parent_group": [],
+    "insurance_type": null,
+    "language": {
+      "id": "25fba6b5-f309-4a8f-b266-12bb987c6ddc",
+      "name": "English",
+      "order": 58
+    },
+    "last_name": "KATZ",
+    "preferred_name": null,
+    "marital_status": {
+      "id": "7a5ec977-34a2-42ac-b0a5-b6259041d90c",
+      "name": "Divorced",
+      "order": 2
+    },
+    "middle_initial": null,
+    "mrn": "10124693",
+    "phone_number": null,
+    "primary_site": {
+      "id": "437dbaf7-5240-9739-de74-64ec7c3e1c33",
+      "name": "Thousand Oaks - PSY",
+      "tag": "thousandoaks",
+      "identifiers": [],
+      "timezone": "US/Pacific"
+    },
+    "race": {
+      "id": "77b86e25-dcc3-4806-be71-d18313d6277a",
+      "name": "White",
+      "order": 79
+    },
+    "registered_on": "2016-01-07T15:17:05-08:00",
+    "religion": {
+      "id": "32a48cff-e78c-4d84-a08c-ed2bf840f2a8",
+      "name": "Jewish",
+      "order": 54
+    },
+    "requires_interpreter": false,
+    "sex": {
+      "id": "a98236d2-8dac-4635-be4f-ae4fda670d66",
+      "name": "Female",
+      "order": 1
+    },
+    "timezone": null,
+    "veteran_status": null,
+    "insurance_policy_number": "",
+    "notification_data": [
+      {
+        "method_type": "sms",
+        "enabled": true,
+        "opt_out": false,
+        "contact_value": "(818) 521-4003",
+        "status": true
+      },
+      {
+        "method_type": "email",
+        "enabled": true,
+        "opt_out": false,
+        "contact_value": "lezleestarr@yahoo.com",
+        "status": true
+      }
+    ],
+    "identifiers": []
+  },
+  "patient_class": {
+    "id": "ba903e63-f88b-470c-869a-c059bdf2b7cd",
+    "name": "Outpatient"
+  },
+  "providers": [
+    {
+      "first_name": "RAFAEL",
+      "id": "a740491c-dd9e-4b66-aa2c-4b1ab64bcede",
+      "is_complete": true,
+      "last_name": "LANDA",
+      "middle_initial": "(LMFT)",
+      "prefix": null,
+      "suffix": null,
+      "identifiers": []
+    }
+  ],
+  "reason": "BEHAVIORAL CASE MGMT GRP 60",
+  "site": {
+    "id": "f27088de-81a5-323d-0770-917043526c92",
+    "name": "Erwin Street - PSY",
+    "tag": "erwinstreet",
+    "identifiers": [],
+    "timezone": "US/Pacific"
+  },
+  "type": "BHCMG60",
+  "visit_id": "222305973970",
+  "visit_date": "2020-12-04T11:00:00-08:00",
+  "visit_status": "scheduled",
+  "patient_response": "is_unconfirmed",
+  "is_virtual": false,
+  "supporting_data": {
+    "virtual": {
+      "email": null,
+      "phone_number": null,
+      "email_required": false,
+      "phone_required": false,
+      "survey_definition_id": null
+    }
+  },
+  "therapy_group_id": null,
+  "therapy_group": null,
+  "sequence": null,
+  "event_time_zone": "US/Pacific",
+  "recurring_event": false,
+  "repeat_details": null,
+  "repeat_details_simplified": null,
+  "canceled_by": null,
+  "identifiers": [],
+  "surveys": [],
+  "visit_closure_reason": null,
+  "closure_comments": null,
+  "edit_permission": false
+}

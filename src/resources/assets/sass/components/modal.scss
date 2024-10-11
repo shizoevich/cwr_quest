@@ -1,0 +1,14 @@
+.modal-appointment-detail {
+  .modal-body {
+    padding-bottom: 0;
+  }
+
+  .modal-footer {
+    padding: 24px 32px;
+    border-top: none;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    position: relative;
+    margin-top: -4px;
+  }
+}

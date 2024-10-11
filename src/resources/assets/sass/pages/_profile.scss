@@ -1,0 +1,63 @@
+.is-clickable{
+  cursor:pointer;
+}
+
+.normal-weight{
+  font-weight: 400;
+}
+
+.no-padding{
+  padding:0;
+}
+
+.profile-form{
+  margin-bottom: 25px;
+
+  textarea{
+    resize: none;
+  }
+
+  [type="checkbox"]{
+    margin-right: 1rem;
+  }
+
+  [type="date"]{
+    min-width: 98%;
+  }
+
+  label{
+    @extend .is-clickable;
+    //@extend .normal-weight;
+  }
+}
+
+.profile-control {
+  .profile-btn-block {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .profile-btn {
+    width: 100%;
+    padding: 6px;
+    font-size: 13px;
+  }
+
+  a[role=button] {
+    width: 100%;
+  }
+
+  .checkbox-group-label {
+    margin-top: 15px;
+  }
+}
+
+.profile-checkbox-form-group {
+  margin-bottom: 0 !important;
+}
+
+#tab_profile {
+  padding-top: 25px;
+}

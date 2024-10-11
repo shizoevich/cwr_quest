@@ -1,0 +1,170 @@
+{
+    "data": [
+        {
+            "id": "7e739307-76ce-41a6-a471-59eb8f8d198c",
+            "owner_id": "c47c37fa-2e00-42c4-9fb7-07d304017a4e",
+            "practitioner_id": "30fa5a91-0f02-4076-be32-02ca28e7bab3",
+            "name": "Intake Availability",
+            "site_id": "19959f55-c15d-4372-9220-37aa024c5548",
+            "site": {
+                "accessibility_accommodations": [
+                    {
+                        "id": "3f50182d-9feb-4ad8-8d0a-ddf93fda36b5",
+                        "name": "No accessibility accommodations",
+                        "order": null,
+                        "is_none_of_the_above": true
+                    }
+                ],
+                "address": {
+                    "address": "17777 Ventura Blvd Suite 103",
+                    "city": "Encino",
+                    "country": null,
+                    "id": "f99db103-2b97-4536-9b65-5f5fb7572223",
+                    "latitude": 34.16282,
+                    "longitude": -118.52001,
+                    "postal_code": "91316",
+                    "state": {
+                        "id": "3a343bf0-456a-4ae2-944f-977e8293bada",
+                        "name": "California",
+                        "code": "CA"
+                    },
+                    "address_lines": ["17777 Ventura Blvd Suite 103", "Encino, 91316"]
+                },
+                "alternate_phone_number": "(747) 238-8485",
+                "description": "Individual",
+                "fax_number": "(213) 908-1233",
+                "hours": "Monday thru Friday 10: 00 am to 7:00 pm\n",
+                "id": "19959f55-c15d-4372-9220-37aa024c5548",
+                "is_complete": true,
+                "name": "External - Change Within Reach (Encino)",
+                "phone_number": "(213) 908-1234",
+                "tag": "epchangewithinreach",
+                "timezone": "US/Pacific",
+                "transportation_accommodations": [
+                    {
+                        "id": "920bf2a5-d87c-4c03-9dd9-ae8e0511d1db",
+                        "name": "No transportation accommodations",
+                        "order": 4,
+                        "is_none_of_the_above": true
+                    }
+                ],
+                "hide_address": true,
+                "tin": "*****8813",
+                "site_tins": []
+            },
+            "sites": ["19959f55-c15d-4372-9220-37aa024c5548"],
+            "start_date": "2022-12-13T13:00:00.000-08:00",
+            "end_date": "2022-12-13T14:00:00.000-08:00",
+            "frequency": null,
+            "by_day": null,
+            "in_person": false,
+            "virtual": true,
+            "visit_type": {
+                "available_for_calendar": true,
+                "code": "PSI60",
+                "duration": 60,
+                "enable_call_center_booking": true,
+                "id": "6274cc89-a543-4954-9a04-da8ed4a2d6d2",
+                "name": "Therapy Intake 60"
+            },
+            "visit_type_duration": 60,
+            "recurring_event": false,
+            "event_time_zone": "US/Pacific",
+            "repeat_details": null,
+            "repeat_details_simplified": null,
+            "interval": null,
+            "by_day_mapped": null,
+            "sequence": null,
+            "lock_status": false,
+            "edit_sequence": false,
+            "status": "open"
+        }, {
+            "id": "8179249e-cc40-4753-8fb8-685957b5f059",
+            "owner_id": "c47c37fa-2e00-42c4-9fb7-07d304017a4e",
+            "practitioner_id": "30fa5a91-0f02-4076-be32-02ca28e7bab3",
+            "name": "Intake Availability",
+            "site_id": "19959f55-c15d-4372-9220-37aa024c5548",
+            "site": {
+                "accessibility_accommodations": [
+                    {
+                        "id": "3f50182d-9feb-4ad8-8d0a-ddf93fda36b5",
+                        "name": "No accessibility accommodations",
+                        "order": null,
+                        "is_none_of_the_above": true
+                    }
+                ],
+                "address": {
+                    "address": "17777 Ventura Blvd Suite 103",
+                    "city": "Encino",
+                    "country": null,
+                    "id": "f99db103-2b97-4536-9b65-5f5fb7572223",
+                    "latitude": 34.16282,
+                    "longitude": -118.52001,
+                    "postal_code": "91316",
+                    "state": {
+                        "id": "3a343bf0-456a-4ae2-944f-977e8293bada",
+                        "name": "California",
+                        "code": "CA"
+                    },
+                    "address_lines": ["17777 Ventura Blvd Suite 103", "Encino, 91316"]
+                },
+                "alternate_phone_number": "(747) 238-8485",
+                "description": "Individual",
+                "fax_number": "(213) 908-1233",
+                "hours": "Monday thru Friday 10: 00 am to 7:00 pm\n",
+                "id": "19959f55-c15d-4372-9220-37aa024c5548",
+                "is_complete": true,
+                "name": "External - Change Within Reach (Encino)",
+                "phone_number": "(213) 908-1234",
+                "tag": "epchangewithinreach",
+                "timezone": "US/Pacific",
+                "transportation_accommodations": [
+                    {
+                        "id": "920bf2a5-d87c-4c03-9dd9-ae8e0511d1db",
+                        "name": "No transportation accommodations",
+                        "order": 4,
+                        "is_none_of_the_above": true
+                    }
+                ],
+                "hide_address": true,
+                "tin": "*****8813",
+                "site_tins": []
+            },
+            "sites": ["19959f55-c15d-4372-9220-37aa024c5548"],
+            "start_date": "2022-12-13T14:00:00.000-08:00",
+            "end_date": "2022-12-13T15:00:00.000-08:00",
+            "frequency": null,
+            "by_day": null,
+            "in_person": false,
+            "virtual": true,
+            "visit_type": {
+                "available_for_calendar": true,
+                "code": "PSI60", 
+                "duration": 60,
+                "enable_call_center_booking": true,
+                "id": "6274cc89-a543-4954-9a04-da8ed4a2d6d2",
+                "name": "Therapy Intake 60"
+            },
+            "visit_type_duration": 60,
+            "recurring_event": false,
+            "event_time_zone": "US/Pacific",
+            "repeat_details": null,
+            "repeat_details_simplified": null,
+            "interval": null,
+            "by_day_mapped": null,
+            "sequence": null,
+            "lock_status": false,
+            "edit_sequence": false,
+            "status": "open"
+        }
+    ],
+    "links": {
+        "next": null,
+        "back": null
+    },
+    "meta": {
+        "offset": 0,
+        "limit": 1008,
+        "total": 2
+    }
+}

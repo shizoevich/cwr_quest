@@ -1,0 +1,299 @@
+$success: #67C23A;
+
+.multistep-form {
+  position: relative;
+  margin-top: 35px;
+
+  .multistep-form-loader {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 150px;
+  }
+}
+
+.multistep-form-progress {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  box-shadow: none;
+  top: 24px;
+  left: 0;
+
+  .progress-bar {
+    background-color: #2ab27b;
+    width: 100%;
+  }
+}
+
+.multistep-form-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 40px;
+
+  &.is-single {
+    justify-content: center;
+  }
+
+  .step-container {
+    background-color: #ffffff;
+    padding: 0 15px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .step-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 51px;
+      height: 51px;
+      border-radius: 50%;
+      border: 1px solid #2AB27B;;
+      background-color: #ffffff;
+      font-size: 18px;
+      font-weight: normal;
+      transition: 0.6s ease;
+      position: relative;
+      color: #2AB27B;
+
+      svg,
+      .el-icon-check {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+      }
+
+      .el-icon-check {
+        width: auto;
+        height: auto;
+      }
+
+      span {
+        position: absolute;
+        transition: opacity 0.6s ease;
+      }
+    }
+
+    &.active, &.completed {
+      .step-number {
+        border-color: #2ab27b;
+        color: #ffffff;
+        background-color: #2ab27b;
+      }
+    }
+
+    &.completed {
+      svg,
+      .el-icon-check {
+        opacity: 0;
+      }
+
+      span {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+.step-label {
+  transition: 0.6s ease;
+  text-align: center;
+  color: #2AB27B;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.multistep-form-content {
+  .step-heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .step-content {
+    & > .container {
+      max-width: 100%;
+      padding: 0;
+
+      .section {
+        border: none;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.multistep-form-controls {
+  display: flex;
+  justify-content: center;
+
+
+  &.forms {
+    @media (min-width: 992px) {
+      margin-top: 80px;
+    }
+  }
+
+  .btn {
+    border-color: #2AB27B;
+    margin-left: 10px;
+
+    &:focus {
+      border-color: #2AB27B;
+      outline: none;
+    }
+  }
+}
+
+.multiple-inputs {
+  margin-bottom: 18px;
+
+  .multiple-inputs__item {
+    display: flex;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .btn-danger {
+      margin-left: 8px;
+
+      img {
+        max-width: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .multistep-form {
+    margin-top: 0;
+  }
+
+  .multistep-form-progress {
+    display: none;
+  }
+
+  .multistep-form-steps {
+    margin-bottom: 20px;
+
+    .step-container {
+      display: none;
+      padding: 0;
+
+      &.active {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .step {
+        order: 2;
+        margin-left: 12px;
+        margin-bottom: 0;
+
+        .step-number {
+          width: 30px;
+          height: 30px;
+
+          svg {
+            width: 15px;
+            height: 15px;
+          }
+        }
+
+        &.completed {
+          svg,
+          .el-icon-check {
+            opacity: 0;
+          }
+
+          span {
+            opacity: 1;
+          }
+        }
+      }
+
+      .step-label {
+        .index {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .multistep-form-content {
+    .step-heading {
+      font-size: 1.4rem;
+      line-height: 2;
+      text-align: left;
+      font-weight: bold;
+
+
+      .index {
+        display: none;
+      }
+    }
+  }
+}
+
+.multistep-form {
+
+  &.multistep-form--success {
+
+    .multistep-form-progress {
+
+      .progress-bar {
+        background-color: $success;
+      }
+    }
+
+    .step {
+
+      .step-number {
+        border-color: $success;
+        color: $success;
+      }
+
+      &.active, &.completed {
+        .step-number {
+          border-color: $success;
+          color: #fff;
+          background-color: $success;
+        }
+      }
+    }
+
+    .step-label {
+      color: $success;
+    }
+
+    .multistep-form--controls {
+
+      .btn {
+        border-color: $success;
+
+        &:focus {
+          border-color: $success;
+        }
+      }
+    }
+  }
+}

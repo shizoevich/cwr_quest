@@ -1,0 +1,5 @@
+.idea
+out
+libs/*
+src/_config/config.ini
+src/config/config.ini

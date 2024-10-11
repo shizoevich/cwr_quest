@@ -1,0 +1,82 @@
+.btn-multiselect {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 36px !important;
+    box-sizing: border-box !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #555555 !important;
+    border: 1px solid #a3aebc !important;
+
+    .multiselect-selected-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    & + .dropdown-menu {
+        width: 100%;
+    
+        label.checkbox, label.radio {
+            color: #555555;
+        }
+
+        label.radio {
+            padding: 3px 20px;
+
+            input[type="radio"] {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        .input-group {
+            display: flex;
+
+            .input-group-addon {
+                display: inline-block;
+                width: auto;
+                height: 36px;
+                flex-shrink: 0;
+                padding: 8px 12px;
+            }
+
+            .input-group-btn {
+                display: inline-block;
+                width: auto;
+                height: 36px;
+                flex-shrink: 0;
+
+                .btn {
+                    height: 36px;
+                }
+            }
+        }
+    }
+}
+
+.has-error {
+    .btn-multiselect {
+        border-color: #a94442 !important;
+
+        & + .dropdown-menu {
+            .input-group {
+                .input-group-addon {
+                    color: #555555;
+                    background-color: #eeeeee;
+                    border-color: #a3aebc;
+                }
+
+                .form-control {
+                    border-color: #a3aebc;
+                    box-shadow: none;
+
+                    &:focus {
+                        border-color: #98cbe8;
+                        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px rgba(152, 203, 232, 0.6);
+                    }
+                }
+            }
+        }
+    }
+}

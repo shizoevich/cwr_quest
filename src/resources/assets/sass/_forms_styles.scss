@@ -1,0 +1,489 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+html,
+body,
+#app-forms {
+  height: 100%;
+}
+
+.forms-center-container {
+  height: calc(100% - 80px);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe-center-container {
+  height: calc(100% - 66px);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-forms {
+  .saving-loader {
+    max-height: 100%;
+    height: 300px;
+  }
+
+  .black-layer {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+}
+
+.patient-contact-info-container {
+  .section-add-note {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .form-note-button-block {
+    margin-bottom: 0 !important;
+    button {
+      margin-right: 15px;
+    }
+  }
+
+  .signature-title {
+    margin-top: 50px;
+    //padding-bottom: 10px;
+    h4 {
+      margin: 0;
+      display: inline-block;
+      line-height: 46px;
+    }
+
+    @media screen and (max-width: 684px) {
+      &.test {
+        h4 {
+          line-height: normal;
+          padding-bottom: 10px;
+        }
+        button {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+
+  .jSignature {
+    height: 20vw !important;
+  }
+}
+
+.patient-contact-info-form {
+  h3.header-part {
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 24px;
+    &.header-part-first {
+      margin-top: 0;
+    }
+  }
+  .radio-wrapper,
+  .checkbox-wrapper {
+    border: 2px solid #e8bdbd;
+    background-color: #e8bdbd;
+  }
+
+  .checkbox-wrapper {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+  }
+
+  .radio-wrapper {
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 1px;
+    input {
+      margin-top: -2px;
+    }
+  }
+
+  .pci-row {
+    margin-top: 10px;
+  }
+
+  .inp-group {
+    //outline: 2px solid #4AC0FB;
+    padding: 20px;
+  }
+
+  .pci-form-group {
+    padding: 0 !important;
+  }
+
+  label.control-label {
+    padding: 0 !important;
+    text-align: left !important;
+    font-weight: 600;
+    &.checkbox-label {
+      font-weight: normal;
+    }
+    &.radio-btn-label {
+      font-size: 18px;
+      text-align: center !important;
+      input[type="radio"] {
+        vertical-align: middle;
+      }
+    }
+    &.normal-control-label {
+      font-weight: normal;
+    }
+  }
+
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    //background-color: #f2dede;
+    //color: #f2dede;
+  }
+
+  input[type="text"].form-control,
+  input[type="number"].form-control,
+  input[type="email"].form-control,
+  input[type="tel"].form-control {
+    font-size: 16px;
+    padding: 0 6px;
+    height: 25px;
+
+    &.copay-input {
+      display: inline-block;
+      max-width: 100px;
+    }
+    &.charges-input {
+      display: inline-block;
+      max-width: 200px;
+    }
+
+    &.empty-input {
+      background-color: #f2dede;
+    }
+    &.introduction-input {
+      display: inline-block;
+      max-width: 250px;
+    }
+  }
+  .view-block {
+    border: 2px solid red;
+    background-color: #f2dede;
+    //margin-top: 20px;
+    //margin-bottom: 20px;
+    cursor: pointer;
+    h4 {
+      margin: 25px 0;
+    }
+    &.view-block-wo-mt {
+      margin-top: 0;
+    }
+    &.view-block-wo-mb {
+      margin-bottom: 0;
+    }
+  }
+
+  input.payment-input {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 80% !important;
+    height: 16px !important;
+    font-size: 14px !important;
+    padding-left: 0 !important;
+    background: transparent !important;
+    border-bottom: 1px solid black !important;
+    color: black !important;
+  }
+  input.other-payment-input {
+    width: 40% !important;
+  }
+}
+
+.label-error {
+  color: red;
+}
+
+.input-error {
+  border: 2px solid red !important;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .big-btn {
+    flex-grow: 0;
+    flex-shrink: 0;
+    //width:264px;
+    flex-basis: 264px;
+    height: 264px;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    &.photo-btn {
+      position: relative;
+      .file-input {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        .fileupload-btn.btn-file {
+          height: 100%;
+          span {
+            position: absolute;
+            display: inline-flex;
+            right: 0;
+            left: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .fileupload-btn {
+    cursor: pointer;
+
+    #patient-photo {
+      //opacity: 0 !important;
+      //height: 100%;
+      //width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .kv-upload-progress {
+    position: absolute !important;
+    width: 100% !important;
+  }
+}
+
+.text-form-start {
+  margin-bottom: 75px;
+}
+
+.btn-start {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+h1.company-name {
+  font-size: 26px;
+}
+h1.company-name span {
+  font-size: 36px;
+}
+h2.company-name {
+  margin-top: 0;
+  font-size: 14px;
+}
+h2.company-name span {
+  font-size: 20px;
+}
+
+.section {
+  &.section-start {
+    padding: 20px 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.text-document-form {
+  margin-bottom: 24px;
+}
+
+.document-list {
+  margin-bottom: 24px;
+}
+
+.row-centered {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.confidential-info-form {
+  .patient-contact-info-form {
+    .radio-wrapper,
+    .checkbox-wrapper {
+      //border: 2px solid #e8bdbd;
+      //background-color: #e8bdbd;
+      border: none;
+      background-color: #ffffff;
+    }
+
+    input[type="text"].form-control,
+    input[type="number"].form-control,
+    input[type="email"].form-control,
+    input[type="tel"].form-control {
+      font-size: 14px;
+      padding: 0 6px;
+      //height: 25px;
+      height: 36px;
+      background-color: #ffffff;
+    }
+
+    input {
+      &.form-control[disabled],
+      &.form-control[readonly] {
+        background-color: #eeeeee;
+      }
+    }
+
+    fieldset[disabled] input.form-control {
+      background-color: #eeeeee;
+    }
+
+    .view-block {
+      //background-color: #f2dede;
+      background-color: #ffffff;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .pci-form-group {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .patient-contact-info-form {
+      .inp-group {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.patient-info-form {
+  .form-control {
+    display: inline-block;
+    width: auto;
+  }
+
+  .custom-checkbox {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.justify-end {
+  justify-content: flex-end !important;
+}
+
+.justify-start {
+  justify-content: flex-start !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.justify-around {
+  justify-content: space-around !important;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mb-credit {
+  margin-bottom: 24px;
+}
+
+.payment-input {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .checkbox-label {
+    & + input {
+      max-width: 300px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .mt-lg {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mt-md {
+    margin-top: 10px;
+  }
+
+  .form-checkboxes-section {
+    .checkbox-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .px-sm-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+.credit-card-form {
+  .form-control {
+    width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    .inp-group {
+      & > .row {
+        & > [class*="col-"] {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+.co-pay-value {
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .co-pay-value {
+    text-align: left;
+  }
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}

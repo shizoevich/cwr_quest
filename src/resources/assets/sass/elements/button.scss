@@ -1,0 +1,163 @@
+.modal-appointment-detail {
+  .btn {
+    min-width: $btn-min-width;
+  }
+}
+
+.btn-table-action {
+  padding: 0 5px;
+  border: none;
+  font-size: 20px;
+  color: #3097d1;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+
+  &[disabled],
+  &[disabled]:active,
+  &[disabled]:hover,
+  &[disabled]:focus {
+    color: #3097d1;
+  }
+}
+
+.btn-download {
+  font-weight: 600;
+  color: #2ab27b;
+  background: none;
+}
+
+.btn-download-all {
+  padding: 12px 22px;
+}
+
+.btn-back {
+  background-color: #ffffff;
+  border-color: #2ab27b;
+  color: #2ab27b;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:focus {
+    background-color: rgba(42, 178, 123, 0.1);
+    color: #2ab27b;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-download {
+    i {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-download {
+    font-size: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    span {
+      display: none;
+    }
+  }
+}
+
+.buttons {
+  &.disabled {
+    .btn {
+    }
+  }
+}
+
+.btn-upload {
+  font-size: 14px;
+  line-height: 19px;
+  color: #59b9ee;
+  border-color: #59b9ee;
+  border-radius: 4px;
+  padding: 12px 8px;
+  background: #ffffff;
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: #59b9ee;
+  }
+}
+
+.btn-clear {
+  padding: 0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -16px;
+  right: -8px;
+}
+
+.btn-dropdown {
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  .btn__text {
+    padding: 6px 18px;
+    border-right: 1px solid #268ec7;
+  }
+
+  .btn__caret {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-out;
+    }
+  }
+}
+
+.dropdown {
+  &.open {
+    .btn__caret {
+      img {
+        transform: rotate(0deg);
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-clear {
+    top: -16px;
+    right: 0;
+  }
+
+  .btn-upload {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    border-radius: 4px;
+    padding: 7px 4px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-start-form {
+    width: 100%;
+  }
+
+  .btn-upload {
+    font-size: 10px;
+    line-height: 11px;
+  }
+}
+
+a.btn-secondary {
+    color: inherit;
+    background-color: buttonface;
+}

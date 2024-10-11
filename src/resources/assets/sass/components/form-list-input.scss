@@ -1,0 +1,51 @@
+.form-list-input {
+  display: block;
+  width: 100%;
+}
+
+.form-list-input__field {
+  display: flex;
+  margin-bottom: 20px;
+
+  input {
+    border-radius: 4px;
+    border: 1px solid #919191;
+    background-color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    padding: 10px 17px;
+    margin-right: 8px;
+    width: 183px;
+
+    &[disabled] {
+      cursor: not-allowed;
+      opacity: 1;
+      background-color: #eeeeee;
+    }
+  }
+
+  &.has-error {
+    input {
+      border-color: #a94442;
+    }
+  }
+}
+
+.form-list-input__btn {
+  background: none;
+  border: none;
+  padding: 6px;
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: .9;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}

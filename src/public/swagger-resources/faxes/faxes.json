@@ -1,0 +1,262 @@
+{
+    "get": {
+      "summary": "Return a list of faxes.",
+      "parameters": [
+        {
+          "in": "query",
+          "name": "search",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "example": "Maxim Avramenko"
+          },
+          "description": "Search parameter - use first_name and last_name from table patients, help to show list of faxes"
+        },
+        {
+          "in": "query",
+          "name": "unread",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "minimum": 1,
+            "example": true
+          },
+          "description": "Boolean parameter, filter value by  true or false"
+        },
+        {
+          "in": "query",
+          "name": "unsigned",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "minimum": 1,
+            "example": true
+          },
+          "description": "Boolean parameter, filter value by  true or false"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "List of faxes",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Get list of faxes"
+                  },
+                  "status": {
+                    "type": "int",
+                    "example": 200
+                  },
+                  "meta": {
+                    "type": "object",
+                    "properties": {
+                      "from": {
+                        "type": "int",
+                        "example": 1
+                      },
+                      "last_page": {
+                        "type": "int",
+                        "example": 6
+                      },
+                      "next_page_url": {
+                        "type": "string",
+                        "example": "http://example.com/api/ringcentral/faxes?page=6,"
+                      },
+                      "path": {
+                        "type": "string",
+                        "example": "http://example.com/api/ringcentral/faxes"
+                      },
+                      "per_page": {
+                        "type": "int",
+                        "example": 3
+                      },
+                      "prev_page_url": {
+                        "type": "int",
+                        "example": null
+                      },
+                      "to": {
+                        "type": "int",
+                        "example": 3
+                      },
+                      "total": {
+                        "type": "int",
+                        "example": 3
+                      }
+                    }
+                  },
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "int",
+                          "example": 1
+                        },
+                        "phone": {
+                          "type": "string",
+                          "example": "+1 818 442 2747"
+                        },
+                        "is_read": {
+                          "type": "boolean",
+                          "example": 1
+                        },
+                        "received_at": {
+                          "type": "date-time",
+                          "example": "2019-08-09 01:02:43"
+                        },
+                        "updated_at": {
+                          "type": "date-time",
+                          "example": "2019-08-09 01:02:43"
+                        },
+                        "provider_id": {
+                          "type": "int",
+                          "example": 3
+                        },
+                        "patient_id": {
+                          "type": "int",
+                          "example": 2
+                        },
+                        "patient":{
+                          "type": "string",
+                          "example": "Paula Hinkel"
+                        },
+                        "extensionId": {
+                          "type": "int",
+                          "example": 2
+                        },
+                        "phoneNumber": {
+                          "type": "int",
+                          "example": 21412312312
+                        },
+                        "type":{
+                          "type": "string",
+                          "example": "Read"
+                        },
+                        "priority":{
+                          "type": "string",
+                          "example": "Normal"
+                        },
+                        "direction":{
+                          "type": "string",
+                          "example": "Outbound"
+                        },
+                        "availability":{
+                          "type": "string",
+                          "example": "Alive"
+                        },
+                        "subject":{
+                          "type": "string",
+                          "example": "Example"
+                        },
+                        "messageStatus":{
+                          "type": "string",
+                          "example": "SendingFailed"
+                        },
+                        "faxResolution":{
+                          "type": "string",
+                          "example": "High"
+                        },
+                        "faxPageCount": {
+                          "type": "int",
+                          "example": 2
+                        },
+                         "lastModifiedTime": {
+                          "type": "date-time",
+                          "example": "2019-08-09 01:02:43"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Requested object not found.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Requested object not found"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 404
+                  }
+                }
+              }
+            }
+          }
+        },
+        "409": {
+          "description": "Request could not be processed because of conflict.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Request could not be processed because of conflict"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 409
+                  }
+                }
+              }
+            }
+          }
+        },
+        "429": {
+          "description": "Rate limit exceed.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Rate limit exceed"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 429
+                  }
+                }
+              }
+            }
+          }
+        },
+        "500": {
+          "description": "The server encountered an internal error or misconfiguration and was unable to complete your request.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "The server encountered an internal error or misconfiguration and was unable to complete your request"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 500
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

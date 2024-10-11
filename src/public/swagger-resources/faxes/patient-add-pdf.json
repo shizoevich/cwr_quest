@@ -1,0 +1,164 @@
+{
+    "post": {
+      "summary": "Add pdf for patient page",
+      "parameters": [
+        {
+            "in": "query",
+            "name": "only_for_admin",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "example": "1"
+            },
+            "description": "Parameter only_for_admin, for example only_for_admin=1"
+        },
+        {
+            "in": "query",
+            "name": "document_type_id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 70,
+              "example": "70"
+            },
+            "description": "Parameter document_type_id, for example document_type_id=70"
+        },
+        {
+            "in": "query",
+            "name": "patient_id",
+            "required":  true,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "example": "1"
+            },
+            "description": "Parameter patient_id, for example patient_id=1"
+          },
+        {
+          "in": "query",
+          "name": "fax_id",
+          "required":  true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "example": "1"
+          },
+          "description": "Parameter fax_id, for example fax_id=1"
+        },
+        {
+          "in": "query",
+          "name": "assign",
+          "required":  true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "example": "1"
+          },
+          "description": "Parameter status, for example assign=1"
+        }
+      ],
+      "responses": {
+        "200": {
+          "description": "Add pdf for patient page",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "Add pdf for patient page"
+                  },
+                  "status": {
+                    "type": "int",
+                    "example": 200
+                  }
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Requested object not found.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Requested object not found"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 404
+                  }
+                }
+              }
+            }
+          }
+        },
+        "409": {
+          "description": "Request could not be processed because of conflict.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Request could not be processed because of conflict"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 409
+                  }
+                }
+              }
+            }
+          }
+        },
+        "429": {
+          "description": "Rate limit exceed.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Rate limit exceed"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 429
+                  }
+                }
+              }
+            }
+          }
+        },
+        "500": {
+          "description": "The server encountered an internal error or misconfiguration and was unable to complete your request.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "The server encountered an internal error or misconfiguration and was unable to complete your request"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 500
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

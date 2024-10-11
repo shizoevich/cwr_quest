@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001000111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111000111" font="Articulate" controllayout="npnxnanbsnfns10111000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="pxabnsnfns10111000111" font="Articulate" controllayout="pxabnsnfns10111000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="npxnabnsnfns10111000111" font="Articulate" controllayout="npxnabnsnfns10111000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="npnxnanbnsnfns10111000111" font="Articulate" controllayout="npnxnanbnsnfns10111000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="pxabnsnfns10111000110" font="Articulate" controllayout="pxabnsnfns10111000110" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="npnxnanbnsnfns00001000111" font="Articulate" controllayout="npnxnanbnsnfns00001000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="pxnanbnsnfns10111000111" font="Articulate" controllayout="pxnanbnsnfns10111000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+    <layout name="pnxnanbnsnfns00001000111" font="Articulate" controllayout="pnxnanbnsnfns00001000111" colorscheme="npnxnanbnsnfns00001000111" string_table="npnxnanbnsnfns00001000111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="HIPAA Compliance Training &amp; Certification Program" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="true" />
+          <option name="replay" value="true" />
+          <option name="pauseplay" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111000110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns00001000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001000111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E6F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74A4DE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8CBCE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EEF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EDF6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCFDFE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8ABAE1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7AA9D2" alpha="100" stop="0" />
+                <color rgb="0xE7F1FA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D3EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC9DFF1" alpha="100" stop="0" />
+                <color rgb="0x75A5D0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A8BB9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB2D1E9" alpha="100" stop="0" />
+                <color rgb="0x9AC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA8CAE7" alpha="100" stop="0" />
+                <color rgb="0x91BEE0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1EEF8" alpha="100" stop="0" />
+                <color rgb="0xE1EEF8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xB1D0E9" alpha="100" stop="0" />
+                <color rgb="0xB8D4EB" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x95C2E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5C9E7" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7CCEB" alpha="100" stop="0" />
+                <color rgb="0x8CBCE5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E9F8" alpha="100" stop="0" />
+                <color rgb="0xD6E9F8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D0E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA3C8E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDEEBF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9EC6E5" alpha="100" stop="0" />
+                <color rgb="0xA8CAE7" alpha="100" stop="128" />
+                <color rgb="0x9EC6E5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001000111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">EXIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6FVQZ2jNMqm" displaytext="HIPAA Compliance Training - 2015" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FVQZ2jNMqm.64aIDkfuYj0" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5ZZRMkU5fTW" displaytext="Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6CfUTkgEwsL" displaytext="Disclaimer" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5i8rNxw8L8s" displaytext="Purpose and Learning Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FVQZ2jNMqm.6ocnvaQsly3" displaytext="Health Care Regulations in US" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6FVQZ2jNMqm.5kW0IOco9oj" displaytext="Health Care Regulations: Review of Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5YpP1N6Hzfd" displaytext="Health Care Regulations: Review of Terms (cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5Y1ogwdMeZE" displaytext="Health Care Regulations: Review of Terms (cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6A9mdkSiCOU" displaytext="Health Care Regulations in the United States - 2013" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FVQZ2jNMqm.6bg11Q9Yi26" displaytext="HHS Regulations: HIPAA" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6FVQZ2jNMqm.5pOhNV0ol6W" displaytext="HHS Regulations: HIPAA (cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5fkKQn9HG5O" displaytext="HHS Regulations: HIPAA Final Omnibus Rule" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6aXUpLKxoCs" displaytext="HHS Regulations" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FVQZ2jNMqm.6QqluQD3OqJ" displaytext="HIPAA Privacy and Security Rules" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6FVQZ2jNMqm.6YGp8Afupwc" displaytext="HIPAA Privacy and Security Rules: Who Must Abide by These Rules?" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5ow8lW7vJ9e" displaytext="Covered Entities" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6Hvz2Ylo4nJ" displaytext="Business Associates" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6WcsHgxPELi" displaytext="Business Associates (cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5sMobUDSLO7" displaytext="HIPAA Privacy Rule" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6FVQZ2jNMqm.5afqSWkgMI4" displaytext="HIPAA Privacy Rule (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6JFHMLXut2m" displaytext="HIPAA Privacy Rule (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6TSr8HGoZ9H" displaytext="HIPAA Privacy Rule (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6Y3rJ5vaKRb" displaytext="HIPAA Privacy Rule: Notice of Privacy Practices" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.66qpsVT9vWZ" displaytext="HIPAA Privacy Rule: Notice of Privacy Practices (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6Kw7L6BEuIu" displaytext="HIPAA Privacy Rule: Office Policies and Training" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6r6baAmEovj" displaytext="HIPAA Privacy Rule: Dedicated Privacy Personnel" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6U9DNvX6EEd" displaytext="HIPAA Privacy Rule: Protected Health Information" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6rOoc6zVzrC" displaytext="HIPAA Privacy Rule: Protected Health Information" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6Z4NwVzJTwH" displaytext="HIPAA Privacy Rule: PHI Breach Notification" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5sz0bBbDedT" displaytext="HIPAA Privacy Rule: PHI Breach Notification (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6T4sInypTwk" displaytext="HIPAA Privacy Rule: PHI Breach Notification (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5kc0Qimbj8s" displaytext="HIPAA Privacy Rule: PHI Breach Notification (cont.)" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6Vfek0bhZzt" displaytext="HIPAA Privacy Rule: Patient Requests for PHI" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6V0qHj5I3wg" displaytext="HIPAA Privacy Rule: Other Requests for PHI" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6Ye4HTEDrRD" displaytext="HIPAA Privacy Rule: Disclosure of PHI to Health Plans" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.60FRIqTFyOl" displaytext="HIPAA Privacy Rule: Sale of PHI" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5gMF6DOoyQb" displaytext="HIPAA Privacy Rule: Marketing" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6VHO6lAvUAR" displaytext="HIPAA Privacy Rule: Marketing" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6kvvUrSnVgi" displaytext="HIPAA Privacy Rule: Communicable Disease" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.643dfFWskbz" displaytext="HIPAA Privacy Rule: PHI Research Purposes" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6FVQZ2jNMqm.5WoaOgNoo1E" displaytext="HIPAA Security Rule" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6FVQZ2jNMqm.5hOu6uF6MoB" displaytext="HIPAA Security Rule: Security Risk Assessment" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.6rXhdqjvJHu" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5y0e1Tvva2R" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5lUuxnpFMbb" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5cAgsEYp7b5" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5a2sCra6bpc" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5it8I7eR6QR" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5ZAmEmlGtVZ" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5yzzgggazLt" displaytext="HIPAA Security Rule: Safeguards" expand="false" type="slide" />
+                <slidelink slideid="_player.6FVQZ2jNMqm.5uLLj5W5F4x" displaytext="HIPAA Security Rule: Security Policy" expand="false" type="slide" />
+              </links>
+            </slidelink>
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FVQZ2jNMqm.5g8rSykifO8" displaytext="HHS Enforcement &amp; Penalties for Breach" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6FVQZ2jNMqm.5XUwxXyjQzm" displaytext="HHS Enforcement and Penalties for Breach: Penalty Structure" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6iBwvj63UvK" displaytext="HHS Enforcement and Penalties for Breach: Penalty Structure" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5V4pkYT90EV" displaytext="HHS Enforcement and Penalties for Breach: Assessment of Penalties" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6mUb5MsSN0K" displaytext="HHS Enforcement and Penalties for Breach: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.6an6zkHVIlB" displaytext="HHS Enforcement and Penalties for Breach: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5ZhFPe7GR5Z" displaytext="HHS Enforcement and Penalties for Breach: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5eCOHu2gc8o" displaytext="HHS Enforcement and Penalties for Breach: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.67d9REldlJT" displaytext="HHS Enforcement and Penalties for Breach: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6FVQZ2jNMqm.5cGDgwtXmZ6" displaytext="HHS Breach Penalty Examples" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FVQZ2jNMqm.5s7BY7S4VWb" displaytext="Pearls to Help You Ensure HIPAA Compliance" expand="false" type="slide" />
+        <slidelink slideid="_player.6FVQZ2jNMqm.6MSMPJ4LiJo" displaytext="Pearls to Help You Ensure HIPAA Compliance (cont.)" expand="false" type="slide" />
+        <slidelink slideid="_player.6FVQZ2jNMqm.6Ynykzs2iWW" displaytext="HIPAA Compliance Training Completed!" expand="false" type="slide" />
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6FVQZ2jNMqm.64aIDkfuYj0" slidebank="false" type="slide">hipaa compliance for health care workers online training &amp; certification program start the course start the course start the course start the course start the course start the course </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5ZZRMkU5fTW" slidebank="false" type="slide">hipaa compliance for health care workers online course &amp; certification program  please make sure your audio is turned on </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6CfUTkgEwsL" slidebank="false" type="slide">the individuals, staff members, owners, consultants, and any other parties involved in the creation and delivery of this online educational course and any supporting materials, hereby unequivocally disclaim any and all liability for any action, advice or opinion that results from the use or application of this educational material outside of its intended purpose. by partaking in this course, all participants acknowledge and understand it is their duty to abide by the current laws, regulations and policies that regulate their specific industry and their specific state of residence and should not rely on this training as a source of legal advice. disclaimer </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5i8rNxw8L8s" slidebank="false" type="slide">purpose and learning objectives purpose of course the purpose of this self-study educational module is to ensure your knowledge of hipaa compliance, including the omnibus final rule updates to the health insurance portability and accountability act (hipaa) of 1996 privacy and security rules. learning objectives upon completion of this module, you should be able to: understand hipaa compliance, including the changes in the final omnibus rule that enhance a patient’s privacy protections and strengthen the government’s ability to enforce the law under hipaa know what is required, and how to implement the rules, to ensure hipaa compliance. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6ocnvaQsly3" slidebank="false" type="slide">health care regulations in us </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5kW0IOco9oj" slidebank="false" type="slide">health care regulations: review of terms covered entity (ce): health plan, health care clearinghouse, or health care provider who transmits any electronic health information (ehi) in connection with a transaction covered by hitech. business associate (ba): any person who performs, assists, or provides legal, actuarial, accounting, consulting, data aggregation management, administrative, accreditation, or financial services to or for a covered entity that involves the disclosure of individually identifiable health information. breach: an impermissible use or disclosure under the hipaa privacy rules that compromises the security or privacy of the protected health information (phi) such that the use or disclosure poses a significant risk of financial, reputational, or other harm to the affected individual. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5YpP1N6Hzfd" slidebank="false" type="slide">health care regulations: review of terms (cont.) disclosure: release, transfer, provision of access to, or divulging in an manner of information outside the ce holding the information. electronic media: electronic storage material on which data is or may be recorded electronically; devices in computers and any removable/transportable digital memory medium (magnetic tape or disk, optical disk, digital memory card) or transmission media used to exchange information already in electronic storage media. genetic information: genetic tests of an individual, genetic tests of family members, manifestation of a disease or disorder in family members, any request for or receipt of genetic services, or participation in clinical research which included genetic services by the individual or any family member. privacy: limits use or disclosure of phi and gives individuals the right to see and obtain copies of their health records, request amendments to their records, and learn details of certain disclosures of their records. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5Y1ogwdMeZE" slidebank="false" type="slide">health care regulations: review of terms (cont.) protected health information (phi): under hipaa, includes any individually identifiable health information (iihi) that is transmitted by electronic media, maintained in electronic media, transmitted or maintained in any other form or medium. phi is not only data that is explicitly linked to a particular individual, but is also included health information with data items which reasonably could be expected to allow individual identification. this definition of phi excludes iihi in education records covered by the family educational rights and privacy act (ferpa); and employment records held by a ce in its role as employer. security: safeguards for the storage, access, and transmission of an individual’s phi. transaction: transmission of information between two parties to carry out financial or administrative activities related to health care. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6A9mdkSiCOU" slidebank="false" type="slide">health care regulations in the united states - 2013 the department of health and human services (hhs) is the principal agency of the united states government for protecting the health of all americans. the hhs medicare program is the nation’s largest health insurer. medicare and medicaid together provide health care insurance for one in four americans. operating divisions of the hhs include: agency for healthcare research and quality (ahrq) centers for disease control and prevention (cdc) centers for medicare and medicaid services (cms) food and drug administration (fda) health resources and services administration (hrsa) national institutes of health (nih) </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6bg11Q9Yi26" slidebank="false" type="slide">hhs regulations: hipaa health insurance portability and accountability act of 1996 (hipaa) work was being done in the mid 1990s to reform health care. the focus was on providing greater access to health care and addressing administrative concerns. in 1996, the health insurance portability and accountability act (hipaa) was enacted into law. the law contains a section known as administrative simplification provisions that require hhs to adopt national standards for: electronic transactions and code set standards privacy security national identifiers hipaa calls for changes to streamline the administration of health care, it promoted uniformity by requiring standards for several administrative transactions. under hipaa, each payer can no longer have unique processes for electronic transactions. when conducting electronic administration transactions, all entities covered under hipaa must use the same standard format. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5pOhNV0ol6W" slidebank="false" type="slide">hhs regulations: hipaa (cont.) congress soon recognized that advances in electronic technology could erode the privacy of health information. this led to the incorporation into hipaa provisions that mandated the adoption of federal privacy protections for individually identifiable health information (iihi). the final privacy rule was published in august 2002. this rule set the privacy standards by three types of covered entities (ces):  health plans, health care clearinghouses, and health care providers who conduct the standard health care transactions electronically. hhs published a final security rule, february 2003. this rule set national standards for protecting the confidentiality, integrity, and availability of electronic protected health information (ephi). compliance with the security rule was required as of april 20, 2005. january 23, 2013, hhs announced the final omnibus rule, modifying the hipaa privacy, security, and enforcement. compliance by bas and ces became effective september 23, 2013. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5fkKQn9HG5O" slidebank="false" type="slide">hhs regulations: hipaa final omnibus rule the final omnibus rule, is based on statutory changes under the hitech act, enacted as part of the american recovery &amp; reinvestment act (arra) 2009 and the genetic information nondiscrimination act of 2008 (gina), which clarifies that genetic information is protected under the hipaa privacy rule and prohibits most health plans from using or disclosing genetic information for underwriting purposes. the final omnibus rule greatly enhances a patient's privacy protections, provides individuals new rights to their health information, and strengthens the government’s ability to enforce the law.  hipaa is a very robust rule and contains many sections. this training module discusses the current hipaa privacy and security rules as well as enforcement and penalties for non compliance. the module also provides guidelines for implementing the rules to meet compliance standards within the health care workplace. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6aXUpLKxoCs" slidebank="false" type="slide">hhs regulations affordable care act: regulations and guidance for the hhs to implement parts of the affordable care act that deal with private and public health insurance. patient safety and quality improvement act of 2005 (psqia) patient safety rule: protects confidential patient safety work product and permitted disclosures of patient safety work product. health information technology for economic and clinical health (hitech) act: provides hhs with the authority to write regulation and guidance to support development of a nationwide health information technology infrastructure. the office of the national coordinator for health information technology (onc) work on ehrs and health it is governed by hitech act regulations. the ocr administers the privacy rule and the security rule. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6QqluQD3OqJ" slidebank="false" type="slide">hipaa privacy and security rules </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6YGp8Afupwc" slidebank="false" type="slide">hipaa privacy and security rules: who must abide by these rules? the hipaa rules apply to covered entitles (ces) and business associates (bas). individuals, organizations, and agencies that meet the definition of a covered entity (ce) under hipaa must comply with the hipaa rules requirements to protect the privacy and security of health information and must provide individuals with certain rights with respect to their health information. if a ce engages a business associate (ba) to help it carry out its health care activities and functions, the ce must have a written ba contract with the ba that establishes specifically what the ba has been engaged to do and requires the ba to comply with the hipaa rules requirements to protect the privacy and security of protected health information (phi). bas must have ba contract with subcontractor. ba liability flows downstream. each downstream contract must be as stringent as the one above. ces are liable for violations of ba agent and bas are liable for violations of a subcontractor agent acting within the scope of agency. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5ow8lW7vJ9e" slidebank="false" type="slide">covered entities a hipaa covered entity (ce) is any organization or corporation that directly handles protected health information (phi) or personal health records (phr). a ce is one of the following: health care provider - doctors, clinics, psychologists, dentists, chiropractors, nursing homes, pharmacies (only if they transmit any information in an electronic form in connection with a transaction for which hhs has adopted a standard). health plan - health insurance companies, hmos, company health plans, government programs that pay for health care (medicare, medicaid, military and veterans health care programs). health care clearinghouse - entities that process nonstandard health information they receive from another entity into a standard electronic format or data content. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Hvz2Ylo4nJ" slidebank="false" type="slide">business associates it’s important for all ces and their administrative workforce including health care providers, registered nurses, and other health care workers, to understand hipaa guidelines for their business associates (bas). a ba is one of the following: third party administrator who assists a health plan with claims processing; patient safety organizations and others involved in patient safety activities; health information organizations (e-prescribing gateways or health information exchanges that transmit and maintain phi and personal health record vendors physicians sponsor for their patients; pharmacy benefits manager; independent medical transcriptionist; consultant who provides utilization reviews; attorney whose legal services to a health plan involve access to phi; subcontractors that create, receive, maintain, or transmit phi on behalf of bas. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6WcsHgxPELi" slidebank="false" type="slide">business associates (cont.) bas must comply with the following hipaa privacy rules: agree to terms of a ba agreement related to use and disclosure of phi provide phi to secretary upon demand provide electronic copy of phi available to an individual related to an individual’s request for an electronic copy of phi make reasonable effort to limit phi to the minimum necessary to accomplish the intended use, disclosure, or request enter into a business associate agreement with subcontractors that create or receive phi on their behalf. bas are responsible for their subcontractors. be directly liable for violations of hipaa privacy rules physicians are liable for actions of their bas who are agents, but not for actions of those bas who are independent contractors. ba agreements: hipaa requires ces to enter into a hipaa-compliant ba agreement with each of the health plan’s ba that performs services for the health plan and has access to phi. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5sMobUDSLO7" slidebank="false" type="slide">hipaa privacy rule what is the hipaa privacy rule? the hipaa privacy rule establishes a foundation of federal protections for the privacy of protected health information (phi). this rule does not replace federal, state, or other law that grants individuals greater privacy protections. an individual has a right to: be informed of the privacy practices of their health plans and of most of their health care providers be informed of their privacy rights with respect to their personal health information receive notice of privacy practices from the ce </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5afqSWkgMI4" slidebank="false" type="slide">hipaa privacy rule (cont.) what are incidental uses and disclosures of phi? because there exist communications and practices, as well as different environments where individuals receive health care or other services from ces, a potential exists for an individual's phi to be disclosed incidentally. example: hospital visitor may overhear a provider’s confidential conversation with another provider or a patient; or a visitor may see a patient’s information on a sign in sheet or nursing station whiteboard. hipaa privacy rule is not intended to impede customary and essential communications and practices. the privacy rule permits certain incidental uses and disclosures of phi to occur when the ce has in place reasonable safeguards such as: speak quietly when discussing a patient’s condition with family members in a waiting area or other public area avoid using patients’ names in public hallways and elevators, and post signs to remind employees to protect patient confidentiality. isolate or lock file cabinets or records rooms provide additional security, such as passwords, on computers with phi </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6JFHMLXut2m" slidebank="false" type="slide">what is the minimum necessary standard for safeguards? ces must have policies and procedures in place that limit who within the entity has access to phi and under what conditions, based upon job responsibilities and nature of business. this does not apply to disclosures, including oral disclosures, among health care providers for treatment. example: physician is not required to apply the minimum necessary standard when discussing a patient’s medical chart with an outside specialist. minimum necessary standard requires a ce to limit who within the entity has access to phi, based on who needs access to perform their job. example: if a hospital employee is permitted to have routine, unimpeded access to patients’ medical records, where such access is not necessary for the hospital employee to do his job, the hospital is not applying the minimum necessary standard. any incidental use or disclosure that results from this practice, such as another worker overhearing the hospital employee’s conversation about a patient’s condition, would be an unlawful use or disclosure under the privacy rule. hipaa privacy rule (cont.) </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6TSr8HGoZ9H" slidebank="false" type="slide">hipaa privacy rule (cont.) when does the minimum necessary standard not apply? disclosures or requests by a health care provider for treatment purposes disclosures to the individual who is the subject of the information uses or disclosures made following an individual’s authorization compliance with the hipaa administrative simplification rules uses or disclosures that are required by other law implementation specifications for this provision require a ce to develop and implement policies and procedures appropriate for its own organization, reflecting the entity’s business practices and workforce: classes of persons within ce who need access to phi to do their jobs categories or types of phi needed conditions appropriate to such access example: hospitals may implement policies that permit doctors, nurses, or other involved in treatment to have access to the entire medical record, as needed. case-by-case review of each use is not required. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Y3rJ5vaKRb" slidebank="false" type="slide">hipaa privacy rule: notice of privacy practices an individual has a right to adequate notice of how a ce may use and disclose phi about the individual as well as his or her rights and the ce’s obligations with respect to that information. physicians must ensure that their npps reflect hipaa rules. notice of privacy practices (npp) must contain the following: how the ce may use and disclose phi about an individual individual’s right with respect to information and how the individual may exercise these rights, including complain to the ce; disclosure to health plans ce’s legal duties with respect to the information, including a statement that the ce is required by law to maintain the privacy of phi a ce is required to notify an affected individual of a breach an individual’s right to opt out of receiving fundraising communications for entities that have stated their intent to fundraise in their npp effective date of npp an individual’s right to restrict disclosures of phi to a health plan where the individual paid out of pocket in full </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.66qpsVT9vWZ" slidebank="false" type="slide">hipaa privacy rule: notice of privacy practices (cont.) distribution of npp a ce must make its npp available to any person who asks for it a ce must prominently post and make available its npp on any website it maintains that provides information about its customer services or benefits provide nnp to individual no later than the date of first service delivery and except in emergency treatment situation ensure that the latest npp is available at the ce’s office or facility for individuals to request to take with them, and post it in a clear and prominent location at the facility a ce may email the npp to an individual if the individual agrees to receive an electronic npp </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Kw7L6BEuIu" slidebank="false" type="slide">hipaa privacy rule: office policies and training policies and procedures hipaa requires ces to maintain and implement policies and procedures that are designed to comply with the hipaa privacy and security rules. the policy and procedures should include breach notification information. workforce training hipaa requires ces to provide training on the hipaa policies and procedures for all members of their workforce hipaa is asking ces to provide timely retraining of workforce members on the revised hipaa policies and procedures emphasis should be placed on training workforce members to identify and report breaches of unsecured phi in a timely manner </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6r6baAmEovj" slidebank="false" type="slide">hipaa privacy rule: dedicated privacy personnel privacy personnel a ce must designate a privacy official responsible for developing and implementing privacy policies and procedures, and a contact person or contact office responsible for receiving complaints and providing individuals with npps. this individual can be any health care workforce members including, employees, volunteers, and trainees, and may also include other persons whose conduct is under the direct control of the ce. a ce must train workforce members on its privacy policies and procedures as needed and appropriate for them to carry out their functions. a ce must also have and apply appropriate sanctions against workforce members who violate its privacy policies and procedures or the hipaa privacy rule </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6U9DNvX6EEd" slidebank="false" type="slide">hipaa privacy rule: protected health information protected health information (phi) a ce must mitigate, to the extent practicable, any harmful effect it learns was caused by use of disclosure of phi by its workforce or its business associate (ba) in violation of its privacy policies and procedures or the hipaa privacy rule. a ce must maintain reasonable and appropriate administrative, technical, and physical safeguards to prevent intentional or unintentional use or disclosure of phi in violation of the hipaa privacy rule and to limit its incidental use and disclosure to otherwise permitted or required use. a ce must have procedures for individuals to complain about its compliance with its npp and the hipaa privacy rule. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6rOoc6zVzrC" slidebank="false" type="slide">hipaa privacy rule: protected health information protected health information (cont.) a ce may not retaliate against a person for exercising rights provided by the hipaa privacy rule for assisting in an investigation by hhs or another appropriate authority. a ce must maintain, until six years after the later of the date of the creation of last effective date, its npps disposition of complaints and other actions. de-identification of phi - all potentially identifiable information has been removed. hipaa also has a provision for a limited data set, from which most but not all potentially identifying information has been removed. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Z4NwVzJTwH" slidebank="false" type="slide">hipaa privacy rule: phi breach notification phi breach notification hhs presumes that a breach has occurred unless after review of the following four factors it is determined that there is a low probability of phi compromise: the nature and extent of the phi involved in the incident. is the phi sensitive information such as social security numbers or infectious disease test results? the unauthorized recipient of the phi. is another physician receiving the phi? whether the phi was actually acquired or viewed. the extent to which the risk to the phi has been mitigated. was it immediately sequestered and destroyed? case example: phi is faxed to wrong physician and receiving physician immediately contacts ce to inform of the error and confirms that the information was destroyed. in this case, there is a low probability that information was compromised and disclosure would not be reportable to ocr, individuals, the media, or any other necessary parties. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5sz0bBbDedT" slidebank="false" type="slide">hipaa privacy rule: phi breach notification (cont.) phi breach notification (cont.) after analysis of the four factors, ces and bas must evaluate and reach a determination and document the determination as well as provide all required notifications if a determination is made that a breach has occurred. the hitech act requires notice of affected individuals, hhs and, in certain circumstances, the media when hipaa ces and their bas discover a breach of unsecured phi. notice of breach must go to: notice to individuals - affected individuals must be notified without unreasonable delay, but in no case later than 60 days after discovery. notices must be written in plain language and include basic information. notice to media - if breach affects more than 500 residents of a state or smaller jurisdiction (county, city or town), ce or ba must also notify a prominent media outlet that is appropriate for size of location. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6T4sInypTwk" slidebank="false" type="slide">hipaa privacy rule: phi breach notification (cont.) notice of breach must go to: (cont.) notice to hhs - information involving breaches of more than 500 or more individuals (regardless of location) must be submitted to hhs in same time as to individuals. if breach affects less than 500 individuals, hhs can be notified no more than 60 days after end of calendar year. notice by bas to ces - notice must be provided without unreasonable delay. if impermissible use or disclosure of phi has occurred, it is the ce or ba who has the burden of demonstrating that all notifications were provided if needed, and maintaining documentation. important recommendation: all ces and bas should have policies and procedures in place to detect and respond to potential breach.  </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5kc0Qimbj8s" slidebank="false" type="slide">an example of a risk for potential breach:  allowing employees to take laptop computers containing phi out of the facility and thereby providing opportunities for loss of computer or access by others to the information held on the computer. note: a state’s breach notification assessment may differ from that required under hipaa, and breach notification required under hipaa may not trump state laws. therefore, a ce must analyze the population of affected individuals to determine whether health information is included in the relevant states’ breach notification laws. hipaa privacy rule: phi breach notification (cont.) </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Vfek0bhZzt" slidebank="false" type="slide">hipaa privacy rule: patient requests for phi patient requests for phi if a patient provides a written request to a physician for copies of his or her phi, the physician has 30 days to respond, regardless where the records are kept. the physician must provide this phi in electronic form in the format the patient requests if the records are “readily reproducible in that format.” hard copies of phi are only permitted if the patient rejects all readily reproducible electronic formats. transmission security of phi is extremely important. phi may only be sent in unencrypted emails if the patient is advised of the risk and still wishes the phi emailed. important: medical offices should document any and all of the above transactions for future reference. patients can be charged for copies and labor costs associated with their requested reproduction of phi. these costs can include labor for extracting electronic phi and the cost of the memory stick or cd. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6V0qHj5I3wg" slidebank="false" type="slide">hipaa privacy rule: other requests for phi other requests for phi decedent’s family members and friends may request a copy of a deceased patient’s phi. physicians are permitted to disclose relevant information if the requesting individuals were previously involved in providing care or payment for care and the physician is unaware of any expressed preference to the contrary. there is no hipaa protection for phi 50 years after a patient’s death. childhood immunizations may be disclosed by physicians to schools who are required to obtain proof of immunization prior to admitting the child to school as long as the physician has obtained and “informal agreement” from the patient or patient’s legal representative. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Ye4HTEDrRD" slidebank="false" type="slide">hipaa privacy rule: disclosure of phi to health plans disclosure of phi to health plans at patient’s request, physicians may not disclose information about care of a patient if the patient has paid for services out-of-pocket to health plans, unless for treatment purposes or in the event disclosure is require by law. note: this rule may impact physician’s practice workflow because of documentation and follow up to ensure this restriction is adhered to. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.60FRIqTFyOl" slidebank="false" type="slide">hipaa privacy rule: sale of phi sale of phi a patient’s written authorization must be in place before his or her phi can be sold for any purpose. this prohibition does not apply to: permitted disclosures for payment or treatment to patients or their designees in exchange for reasonable cost-based fee an example of the prohibition on sale is disclosure by a physician in conjunction with research, if the remuneration received by the physician includes any profit margin. an example of the allowance of sale of phi is the cost-based fee of copying and providing phi (electronic or hard copy) for patient or patient’s designee. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5gMF6DOoyQb" slidebank="false" type="slide">hipaa privacy rule: marketing marketing - a communication about a product or service that encourages recipients of the communication to purchase or use the product or service. if a communication is marketing, the communication can only occur if the ce first obtains an individual’s authorization. examples include: communication from a hospital informing former patients about a cardiac facility, not part of the hospital, that can provide a baseline ekg for $39, when communication is not for the purpose of providing treatment advice. communication from health insurer promoting a home and casualty insurance product offered by the same company. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6VHO6lAvUAR" slidebank="false" type="slide">hipaa privacy rule: marketing marketing (cont.) examples of exceptions to the definition of marketing include communications about: description of health-related product or service that is provided by, or included in a plan of benefits of the ce making the communication. hospital uses its patient list to announce arrival of new specialty group or acquisition of new equipment. health plan sends a mailing to subscribers approaching medicare eligible people with materials describing its medicare supplemental plan and a form. pharmacy or other health care provider mails prescription refill reminders to patients. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6kvvUrSnVgi" slidebank="false" type="slide">hipaa privacy rule: communicable disease does hipaa permit disclosure of specific patient medical information related to a communicable disease to local public health authorities without patient authorization? hipaa permits a provider and/or the provider’s medical records department or staff to release a patient’s medical information pertaining to a communicable disease in accordance with the state communicable disease reporting rule without a patient’s authorization. this answer is based on the hipaa privacy rule, centers for disease control and prevention (cdc) and the u.s. department of health and human services (hhs). the medical information being released must be related to a communicable disease report. this may include, but is not limited to, phi, and information on their contacts, the tests conducted and the results of the tests, treatments related to the disease, and other pertinent information. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.643dfFWskbz" slidebank="false" type="slide">hipaa privacy rule: phi research purposes phi research purposes compound authorization or authorizations for more than one clinical trial and authorizations for future, unspecified research are permitted. a single document including consent and authorization for a clinical trial and a future study can be developed as long as the authorization contains a general description of the types of research that may be conducted. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5WoaOgNoo1E" slidebank="false" type="slide">hipaa security rule hipaa security rule national standards to protect individuals’ electronic phi (ephi) that is created, received, used, or maintained by a ce requires appropriate administrative, physical and technical safeguards to ensure the confidentiality, integrity, and security of ephi. who needs to know and abide by this rule? all ces are required to put in place a risk analysis to identify and implement safeguards that comply with and carry out the standards and implementation specifications to this rule. example: in group health plans, threats can come from two sources: internal (the workplace) external (communications on behalf of the health plan and brokers, consultants, and vendors group health plans must conduct a risk assessment to identify and provide solutions to risks. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5hOu6uF6MoB" slidebank="false" type="slide">hipaa security rule: security risk assessment all ces are required to conduct a risk assessment to identify and provide solutions to risks: request copies of privacy policies and procedures, risk assessments, and security policies and procedures from all bas. (bas are not required to have written policies and procedures: however, it is recommended they do) update ba agreements to reflect this data encryption is not a mandate; however, it is becoming the standard for any ce or ba who deals with ephi or electronic data all computers in a health care facility where ephi is present should be password protected ces with a traveling workforce must put policies and procedures in place to protect laptops with sensitive information in the event the laptop is taken or accessed by other individuals all ces must perform periodic assessments of how well their security policies and procedures are meeting the requirements of the hipaa security rule </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6rXhdqjvJHu" slidebank="false" type="slide">hipaa security rule: safeguards administrative safeguards: security management process ces are required to perform risk analysis as part of their security management processes. this analysis will help ces to determine which security measures are reasonable and appropriate for them. risk analysis includes, but is not limited to: evaluation of the likelihood and impact of potential risks to ephi implementation of appropriate security measures to address the risks identified in the risk analysis documentation of the chosen security measures and, where required, the rationale for adopting those measures continuous maintenance of reasonable and appropriate security protections to track access to ephi and detect security incidents a ce must designate a security officer who is responsible for development and implementation of the security policies and procedures </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5y0e1Tvva2R" slidebank="false" type="slide">hipaa security rule: safeguards administrative safeguards: information access management consistent with the privacy rule standard limiting uses and disclosures of phi to the 'minimum necessary' the security rule requires a ce to implement policies and procedures for authorizing access to ephi only when such access is appropriate based on the user or recipient’s role. example: ensure that computers are password-protected and access to ephi is limited to specific job function. (medical secretary, physician, registered nurse, and other work staff members who deal directly with ephi as part of their job responsibility). </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5lUuxnpFMbb" slidebank="false" type="slide">hipaa security rule: safeguards administrative safeguards: workforce training &amp; management a ce must provide appropriate authorization and supervision of workforce members who work with ephi a ce must train all workforce members regarding its security policies and procedures a ce must have and apply appropriate sanctions against workforce members who violate its policies and procedures a ce must perform a periodic assessment of how well its security policies and procedures meet the requirements of the security rule example: training sessions should be held for all new employees. in addition, an annual update training session should be scheduled to cover any updates to regulatory statutes. if a breach occurs, a new training session should be scheduled to discuss the breach and new implementation to prevent the breach from happening again. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5cAgsEYp7b5" slidebank="false" type="slide">physical safeguards: facility access and control a ce must limit physical access to its facilities while ensuring that authorized access is allowed workstation and device security a ce must implement policies and procedures to specify proper use of and access to workstations and electronic media a ce must have in place policies and procedures regarding the transfer, removal, disposal, and re-use of electronic media, to ensure appropriate protection of ephi hipaa security rule: safeguards </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5a2sCra6bpc" slidebank="false" type="slide">hipaa security rule: safeguards physical safeguards (cont.) examples:  workstations should be separated from general work area and password protected to allow only specific employees access to ephi. policies and procedures for removing laptops from the facility should be instituted. if workforce members travel and must carry their laptop, ensure that no ephi is on the hard drive of the computer. if ephi must be on the drive, ensure that access to the computer is password protected and no one who is unauthorized can gain access. there should be no reason for anyone to save ephi on a removable drive unless it is for the patient who specifically requested his ephi in that format. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5it8I7eR6QR" slidebank="false" type="slide">hipaa security rule: safeguards technical safeguards: access and audit controls a ce must implement technical policies and procedures that allow only authorized persons to access ephi a ce must implement hardware, software, and or procedural mechanisms to record and examine access </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5ZAmEmlGtVZ" slidebank="false" type="slide">technical safeguards (cont.) examples:  in addition to password protected computers, ephi should be prohibited from leaving the facility on a laptop or any other electronic means unless a patient specifically requests ephi be sent via external drive or cd. in this case, the ce should document the patient’s request. policies should be implemented to record and examine any and all access to ephi within the facility. this should be checked often and if any actions have taken place outside of the policy, the workforce should be notified. training must occur for all new members of the workforce regarding policies and procedures for technical safeguards. if a breach occurs, the workforce should meet again to review problems and correct them. hipaa security rule: safeguards </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5yzzgggazLt" slidebank="false" type="slide">hipaa security rule: safeguards technical safeguards: integrity controls &amp; transmission security a ce must implement policies and procedures to ensure that ephi is not improperly altered or destroyed. electronic measures must be put in place to confirm that ephi has not been improperly altered or destroyed a ce must implement technical security measures that guard against unauthorized access to ephi that is being transmitted over an electronic network examples: a ce should ensure that all material transmitted electronically are encrypted. this will protect ephi from being improperly altered or destroyed. a procedure should be put in place to handle all ephi, including which job function handles ephi and managed the distribution when it is requested by the patient, family, or other source. all new employees should be trained on this procedure and policy to avoid the possibility of a breach. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5uLLj5W5F4x" slidebank="false" type="slide">hipaa security rule: security policy items that might be included in a security policy: acceptable use incident response wireless policy network security confidential data mobile device outsourcing policy password policy network access policy remote access policy encryption policy data classification retention policy physical security policy security incident report     policy and procedure </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5g8rSykifO8" slidebank="false" type="slide">hhs enforcement &amp; penalties for breach </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5XUwxXyjQzm" slidebank="false" type="slide">hhs enforcement and penalties for breach: penalty structure hhs penalty structure changes in the hipaa final rule, january 23, 2013, strengthen the hitech breach notification requirements by clarifying when breaches of unsecured phi must be reported to hhs. hhs is required to conduct a formal investigation and impose civil monetary penalties in cases involving willful neglect. based on culpability, fines range from $100 to $50,000 per violation with a cap of $1.5 million on violations of identical provisions happening within the same calendar year. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6iBwvj63UvK" slidebank="false" type="slide">hhs penalty structure (cont.) the breach penalty tiers are: lowest tier - cases where physician did not and could not reasonably know of the breach. intermediate tier - cases where physician 'knew, or by exercising reasonable diligence would have known' of violation, but physician did not act with willful neglect. highest tiers - cases where physician 'acted with willful neglect' and either corrected the problem within the 30-day cure period, or failed to make a timely correction. hhs enforcement and penalties for breach: penalty structure </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5V4pkYT90EV" slidebank="false" type="slide">five principal factors on which assessment of penalties is based: 1. nature and extent of violation, including number of individuals affected 2. nature and extent of harm, including reputational harm, resulting from violation 3. history and extent of prior compliance 4. financial condition of ce or ba 5. other matters that may be required by justice the number of violations may be based on the number of individuals affected by number of days of non-compliance.  new rules further clarify: 30-day cure period begins when the physician knew or should have known of the violation. hhs enforcement and penalties for breach: assessment of penalties </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6mUb5MsSN0K" slidebank="false" type="slide">hhs enforcement and penalties for breach: examples case examples of hipaa enforcement of breach: 1. breach of minimum necessary policies for telephone messages. case: a hospital employee did not observe minimum necessary requirements when she left a telephone message with the daughter of a patient detailing the mother’s medical condition and treatment plan. an ocr investigation indicated that confidential communications requirements were not followed, as the employee left the message at the patient’s home telephone number, despite the patient’s instructions to contact her through her work number. resolution: the hospital developed and implemented several new procedures:  addressed the issue of minimum necessary information in telephone message content.  employees were trained to review registration information for patient contact directives regarding leaving messages. these new procedures were incorporated into the standard staff privacy training. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6an6zkHVIlB" slidebank="false" type="slide">hhs enforcement and penalties for breach: examples case examples of hipaa enforcement of breach (cont.) 2. breach of private practice waiting rooms privacy policies. case: a staff member of a medical practice discussed hiv testing procedures with a patient in the waiting room, thereby disclosing phi to several other individuals. also, computer screens displaying patient information were easily visible to patients. resolution:  ocr required the provider to develop and implement policies and procedures regarding appropriate administrative and physical safeguards related to communication of phi. the practice retrained staff on newly developed policies and procedures. ocr required the practice to reposition its computer monitors to prevent patients from viewing information on the screens, and to install computer monitor privacy screens. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5ZhFPe7GR5Z" slidebank="false" type="slide">hhs enforcement and penalties for breach: examples case examples of hipaa enforcement of breach (cont.) 3. breach of impermissible disclosure of phi in response to subpoena. case: a public hospital responded to a subpoena without a court order and impermissibly disclosed the phi of one of its patients. contrary to the hipaa privacy rule protections for information sought for administrative or judicial proceedings, the hospital failed to ensure that the individual whose phi was being sought, received notice of the request and thus did not receive satisfactory assurance that the party seeking information made reasonable efforts to secure a qualified protective order. resolution: ocr required that the hospital revise its subpoena processing procedures to read: if a subpoena is received that does not meet the requirements of the hipaa privacy rule, the information is not disclosed; instead, the hospital must contact the party seeking the subpoena to explain requirements of the hipaa privacy rule. the hospital must retrain relevant staff members on the new procedures. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5eCOHu2gc8o" slidebank="false" type="slide">hhs enforcement and penalties for breach: examples case examples of hipaa enforcement of breach (cont.) 4. breach of denial of patient’s access to his own records. case: private practice denied an individual access to his records on the basis that a portion of the individual’s record was created by a physician not associated with the practice. resolution: ocr required the private practice to revise its access policy and procedures to affirm that, consistent with the privacy rule standards, patients have access to their record regardless of whether another entity created information contained within it. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.67d9REldlJT" slidebank="false" type="slide">hhs enforcement and penalties for breach: examples case examples of hipaa enforcement of breach (cont.) 5. breach of disclosure of patient’s phi. case: a nurse and an orderly at a state hospital discussed the hiv/aids status of a patient and the patient’s spouse within earshot of other patients without making reasonable efforts to prevent the disclosure. resolution: hospital placed both employees on leave. hospital took further disciplinary action with the nurse including: documentation in her employee record of incident, one year probation, referral for peer review, further training on hipaa privacy. the state’s attorney general entered into a monetary settlement agreement with the patient. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5cGDgwtXmZ6" slidebank="false" type="slide">hhs breach penalty examples examples of breaches affecting 500 or more individuals:  </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.5s7BY7S4VWb" slidebank="false" type="slide">pearls to help you ensure hipaa compliance ensure that all new employees are thoroughly trained on policies and procedures of the entity that support compliance with hipaa privacy and security rules. retrain all employees once a year to ensure compliance. update your policies and procedures manuals as regulatory changes occur and communicate revisions to workforce. don’t leave phi laying on desks or out in the open. provide password protected computers for employees. keep copies of patient communication when phi is requested. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6MSMPJ4LiJo" slidebank="false" type="slide">pearls to help you ensure hipaa compliance (cont.) ensure that npp is updated and distributed in a timely manner. put in place policies about laptops and other portable electronic devices to ensure they do not have phi of patients when the devices are taken off site. do not discuss patients in open public places where other can overhear the conversation. notify the health care provider immediately, if you see or suspect a breach of phi. ensure that a log is kept of all suspected breaches that occur. respect a patient’s privacy at all times. respect a patient’s rights at all times. </slidetext>
+      <slidetext slideid="6FVQZ2jNMqm.6Ynykzs2iWW" slidebank="false" type="slide">hipaa compliance training completed! thank you for taking the time to learn about hipaa &amp; hitech regulations. we hope you enjoyed this online training course and now you are ready to test your knowledge. click “take the exam” link at the top to get certified. good luck! </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>

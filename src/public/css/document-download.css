@@ -1,0 +1,25 @@
+.document-download-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 100vh;
+}
+
+.document-download-panel {
+  max-width: 600px;
+  margin-bottom: 0;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+@media (max-width: 767px) {
+  .document-download-panel .btn {
+    margin-top: 10px;
+  }
+}

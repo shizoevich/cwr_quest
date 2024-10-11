@@ -1,0 +1,220 @@
+/v2/customers
+POST
+Array
+(
+)
+
+SquareConnect\Model\CreateCustomerRequest Object
+(
+    [given_name:protected] => Test
+    [family_name:protected] => Patient
+    [company_name:protected] => 
+    [nickname:protected] => 
+    [email_address:protected] => naymwm@gmail.com
+    [address:protected] => SquareConnect\Model\Address Object
+        (
+            [address_line_1:protected] => 44444444444444444444444444444444444
+            [address_line_2:protected] => 
+            [address_line_3:protected] => 
+            [locality:protected] => 44444444444
+            [sublocality:protected] => 
+            [sublocality_2:protected] => 
+            [sublocality_3:protected] => 
+            [administrative_district_level_1:protected] => 44444444444
+            [administrative_district_level_2:protected] => 
+            [administrative_district_level_3:protected] => 
+            [postal_code:protected] => 44444
+            [country:protected] => US
+            [first_name:protected] => 
+            [last_name:protected] => 
+            [organization:protected] => 
+        )
+
+    [phone_number:protected] => 444-444-4444
+    [reference_id:protected] => 
+    [note:protected] => 
+)
+
+Array
+(
+    [Accept] => application/json
+    [Content-Type] => application/json
+    [Authorization] => Bearer sq0atp-tc6jXJCg2FcdcfxmtOP6EQ
+)
+
+\SquareConnect\Model\CreateCustomerResponse
+stdClass Object
+(
+    [customer] => stdClass Object
+        (
+            [id] => BK4V82PJF91N8HK6D8A4B42CK8
+            [created_at] => 2018-01-23T09:27:25.806Z
+            [updated_at] => 2018-01-23T09:27:26Z
+            [given_name] => Test
+            [family_name] => Patient
+            [email_address] => naymwm@gmail.com
+            [address] => stdClass Object
+                (
+                    [address_line_1] => 44444444444444444444444444444444444
+                    [locality] => 44444444444
+                    [administrative_district_level_1] => 44444444444
+                    [postal_code] => 44444
+                    [country] => US
+                )
+
+            [phone_number] => 444-444-4444
+            [preferences] => stdClass Object
+                (
+                    [email_unsubscribed] => 
+                )
+
+            [groups] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [id] => ADGPBY7VZ50QB.REACHABLE
+                            [name] => Reachable
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [url] => https://connect.squareup.com/v2/customers
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 374
+    [request_size] => 516
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.891
+    [namelookup_time] => 0.063
+    [connect_time] => 0.188
+    [pretransfer_time] => 0.485
+    [size_upload] => 287
+    [size_download] => 516
+    [speed_download] => 579
+    [speed_upload] => 322
+    [download_content_length] => 516
+    [upload_content_length] => 287
+    [starttransfer_time] => 0.891
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 74.122.189.136
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.10.237
+    [local_port] => 42558
+)
+
+
+
+
+
+/v2/customers/BK4V82PJF91N8HK6D8A4B42CK8/cards
+POST
+Array
+(
+)
+
+SquareConnect\Model\CreateCustomerCardRequest Object
+(
+    [card_nonce:protected] => CBASEByqEnblraUu6eLLgF8hlk0
+    [billing_address:protected] => SquareConnect\Model\Address Object
+        (
+            [address_line_1:protected] => 44444444444444444444444444444444444
+            [address_line_2:protected] => 
+            [address_line_3:protected] => 
+            [locality:protected] => 44444444444
+            [sublocality:protected] => 
+            [sublocality_2:protected] => 
+            [sublocality_3:protected] => 
+            [administrative_district_level_1:protected] => 44444444444
+            [administrative_district_level_2:protected] => 
+            [administrative_district_level_3:protected] => 
+            [postal_code:protected] => 44444
+            [country:protected] => US
+            [first_name:protected] => 
+            [last_name:protected] => 
+            [organization:protected] => 
+        )
+
+    [cardholder_name:protected] => Test Patient
+)
+
+Array
+(
+    [Accept] => application/json
+    [Content-Type] => application/json
+    [Authorization] => Bearer sq0atp-tc6jXJCg2FcdcfxmtOP6EQ
+)
+
+\SquareConnect\Model\CreateCustomerCardResponse
+stdClass Object
+(
+    [card] => stdClass Object
+        (
+            [id] => icard-K71vOKpf2PAygWjB4GB
+            [card_brand] => MASTERCARD
+            [last_4] => 7877
+            [exp_month] => 12
+            [exp_year] => 2020
+            [cardholder_name] => Test Patient
+            [billing_address] => stdClass Object
+                (
+                    [address_line_1] => 44444444444444444444444444444444444
+                    [locality] => 44444444444
+                    [administrative_district_level_1] => 44444444444
+                    [postal_code] => 44444
+                    [country] => US
+                )
+
+        )
+
+)
+
+Array
+(
+    [url] => https://connect.squareup.com/v2/customers/BK4V82PJF91N8HK6D8A4B42CK8/cards
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 374
+    [request_size] => 524
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.063
+    [namelookup_time] => 0
+    [connect_time] => 0.141
+    [pretransfer_time] => 0.407
+    [size_upload] => 262
+    [size_download] => 334
+    [speed_download] => 314
+    [speed_upload] => 246
+    [download_content_length] => 334
+    [upload_content_length] => 262
+    [starttransfer_time] => 1.063
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 74.122.189.136
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.10.237
+    [local_port] => 42561
+)
+
+
+
+
+

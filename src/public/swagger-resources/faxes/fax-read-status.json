@@ -1,0 +1,120 @@
+{
+  "post": {
+    "summary": "Change status - parameter the list of faxes_id(array) for 'is_read' in table faxes",
+    "parameters": [
+      {
+        "in": "query",
+        "name": "fax_id",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "example": "1"
+        },
+        "description": "Parameter the list of faxes_id(array), for example faxes_id[]=1"
+      }
+    ],
+    "responses": {
+      "200": {
+        "description": "changed status 'is_read' ",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "example": "changed status 'is_read' "
+                },
+                "status": {
+                  "type": "int",
+                  "example": 200
+                }
+              }
+            }
+          }
+        }
+      },
+      "404": {
+        "description": "Requested object not found.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string,",
+                  "example": "Requested object not found"
+                },
+                "status": {
+                  "type": "int,",
+                  "example": 404
+                }
+              }
+            }
+          }
+        }
+      },
+      "409": {
+        "description": "Request could not be processed because of conflict.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string,",
+                  "example": "Request could not be processed because of conflict"
+                },
+                "status": {
+                  "type": "int,",
+                  "example": 409
+                }
+              }
+            }
+          }
+        }
+      },
+      "429": {
+        "description": "Rate limit exceed.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string,",
+                  "example": "Rate limit exceed"
+                },
+                "status": {
+                  "type": "int,",
+                  "example": 429
+                }
+              }
+            }
+          }
+        }
+      },
+      "500": {
+        "description": "The server encountered an internal error or misconfiguration and was unable to complete your request.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string,",
+                  "example": "The server encountered an internal error or misconfiguration and was unable to complete your request"
+                },
+                "status": {
+                  "type": "int,",
+                  "example": 500
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

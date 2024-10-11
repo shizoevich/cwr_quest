@@ -1,0 +1,10 @@
+.tox-tinymce {
+    border: 1px solid #a3aebc !important;
+    border-radius: 4px !important;
+}
+
+.has-error {
+    .tox-tinymce {
+        border-color: #a94442 !important;
+    }
+}

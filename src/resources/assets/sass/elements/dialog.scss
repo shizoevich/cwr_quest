@@ -1,0 +1,57 @@
+$border: 1px solid #eeeeee;
+$borderRadius: 7px;
+
+.custom-dialog {
+    .el-dialog {
+        border-radius: $borderRadius;
+
+        .el-dialog__header {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f6f9;
+            padding: 24px 24px 16px;
+            grid-gap: 16px;
+            gap: 16px;
+            white-space: nowrap;
+            font-size: 24px;
+            line-height: 24px;
+            border-bottom: $border;
+            border-radius: $borderRadius $borderRadius 0 0;
+
+            .el-dialog__headerbtn {
+                position: static;
+                font-size: inherit;
+            }
+        }
+
+        .el-dialog__body {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 32px;
+            gap: 32px;
+            padding: 32px;
+            font-size: 14px;
+            background-color: #fff;
+
+            .hide-required-icon {
+                .el-form-item__label {
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+
+            .form-group__title {
+                font-size: 20px;
+            }
+        }
+
+        .el-dialog__footer {
+            border-top: $border;
+            border-radius: 0 0 $borderRadius $borderRadius;
+            padding: 20px 32px;
+        }
+    }
+}

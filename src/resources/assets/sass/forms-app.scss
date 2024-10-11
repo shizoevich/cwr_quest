@@ -1,0 +1,29 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Components
+@import "components/patient-forms";
+@import "components/requested-documents";
+@import "components/multistep-form";
+@import "components/document-form";
+@import "components/form-switch";
+@import "components/new-patient-form";
+@import "components/collapse";
+
+// Elements
+@import "elements/button";
+@import "elements/table";
+@import "elements/notification";
+
+//custom styles
+@import "styles";
+@import "forms_styles";
+
+// Pages
+@import "pages/chart";

@@ -1,0 +1,114 @@
+.salary-page {
+  overflow: hidden;
+  padding: 60px 0 100px;
+}
+
+.salary-title {
+  margin-bottom: 50px;
+
+  &.mb-small {
+    margin-bottom: 30px;
+  }
+}
+
+.salary-subtitle {
+  font-size: 2.75rem;
+  margin-bottom: 30px;
+}
+
+.salary-table {
+
+  &-filter {
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  &-item {
+    margin-bottom: 40px;
+  }
+
+  .el-input,
+  .el-select {
+
+    &.is-error {
+      .el-input__inner {
+        border: 1px solid #F56C6C;
+      }
+    }
+  }
+
+  .el-link {
+    text-decoration: none;
+  }
+
+  .el-select {
+    width: 100%;
+  }
+
+  .el-table--enable-row-hover .el-table__body tr:hover > td {
+    background-color: transparent;
+  }
+
+  .column-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+    .action-text {
+      width: 100%;
+      font-size: 14px;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .added-button-wrapper {
+    margin: 20px 0 30px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .el-table__footer-wrapper {
+
+    tr {
+      td {
+        &:nth-of-type(4) {
+          .cell {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .patient-cell {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .el-link {
+      margin-right: 5px;
+    }
+
+    &__summary {
+      color: #F56C6C;
+    }
+  }
+}
+
+.salary-footer {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

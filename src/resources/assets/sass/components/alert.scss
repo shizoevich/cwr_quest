@@ -1,0 +1,40 @@
+.alert-ehr {
+}
+
+.alert-ehr__title {
+  margin-bottom: 12px;
+}
+
+.alert-ehr__text + .alert-ehr__text {
+  margin-top: 12px;
+}
+
+.alert-reversed {
+  .close {
+    float: none;
+    position: static;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #eb5757;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    align-self: baseline;
+    cursor: default;
+  }
+}
+
+.alert-declined-documents {
+  padding: 15px 50px 15px 80px;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 1199px) {
+  .alert-declined-documents {
+    padding: 15px 25px 15px 40px;
+  }
+}

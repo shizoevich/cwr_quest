@@ -1,0 +1,404 @@
+$appt-modal-border-radius: 7px;
+$appt-modal-success-color: #02a756;
+$appt-modal-success-hover: #02954a;
+$appt-modal-warning-color: #CF9A22;
+$appt-modal-warning-hover: #D9A42C;
+$appt-modal-danger-color: #d9534f;
+$appt-modal-danger-hover: #c7524e;
+
+.appt-modal {
+
+  &.appt-telehealth {
+    .modal-body {
+      padding: 30px 28px 20px;
+    }
+  }
+
+  font-family: Arial, sans-serif;
+
+  .modal-content {
+    border-radius: $appt-modal-border-radius;
+  }
+
+  .modal-header {
+    font-weight: bold;
+    color: #ffffff;
+    border-top-left-radius: $appt-modal-border-radius;
+    border-top-right-radius: $appt-modal-border-radius;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    button.close {
+      opacity: 1;
+      margin-top: 3px;
+      color: white;
+      &:hover {
+        opacity: 0.8;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  } //  /.modal-header
+
+  .modal-body {
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-bottom-left-radius: $appt-modal-border-radius;
+    border-bottom-right-radius: $appt-modal-border-radius;
+    padding: 30px 56px 20px 28px;
+    font-size: 18px;
+
+    .title {
+      font-weight: bold;
+      border-bottom: 1px solid #a2a2a2;
+      padding-bottom: 8px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      &.co-pay-title {
+        margin-bottom: 0;
+      }
+    }
+
+    .modal-loader {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .years-old {
+      font-size: 14px;
+    }
+
+    .almost-overdue-eff-stop-date {
+      color: #b8ad00;
+    }
+    .overdue-eff-stop-date {
+      color: red;
+    }
+
+    .co-pay-container {
+      border-bottom: 1px solid #a2a2a2;
+      margin-bottom: 22px;
+      display: flex;
+      h4 {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .co-pay-val {
+        font-size: 48px;
+        text-align: center;
+        width: 200px;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+      }
+
+      .cash-container {
+        width: 100%;
+        margin: 15px 0;
+        padding-left: 15px;
+        border-left: 1px solid #ababab;
+
+        .cash-inputs {
+          .form-group {
+            input[type=text], select {
+              display: inline-block;
+              max-width: 177px;
+              border-radius: 7px;
+              font-size: 16px;
+              height: 27px;
+            }
+            select {
+              padding-top: 2px;
+              padding-bottom: 0;
+              padding-left: 5px;
+              //color: #969696;
+            }
+          }
+        }
+      }
+
+      .credit-card-container {
+        width: 384px;
+        text-align: center;
+        .card-info {
+          padding: 25px 15px 0 15px;
+          margin-bottom: 31px;
+        }
+      }
+    }
+
+    .comment-block {
+      text-align: center;
+      textarea {
+        max-width: 550px;
+        border-radius: $appt-modal-border-radius;
+        display: inline-block;
+      }
+    }
+
+    .appt-modal-btn {
+      font-size: 18px !important;
+      color: #ffffff;
+      border-radius: 10px;
+      border: none !important;
+      width: 138px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 0;
+      height: 37px;
+      &:focus {
+        outline:none;
+      }
+    }
+
+    .el-button--success, .el-button--danger {
+      font-size: 18px;
+      border-radius: 10px;
+    }
+
+    .el-button--success {
+      background-color: $appt-modal-success-color!important;
+      &:hover:not([disabled]) {
+        background-color: $appt-modal-success-hover!important;
+      }
+    }
+
+    .el-button--danger {
+      background-color: $appt-modal-danger-color!important;
+      &:hover:not([disabled]) {
+        background-color: $appt-modal-danger-hover!important;
+      }
+    }
+
+    .warning-block {
+      display: inline-block;
+      text-align: left;
+      line-height: 16px;
+      margin-top: 39px;
+      //color: #df0016;
+      color: #ff0000;
+      font-size: 14px;
+      max-width: 650px;
+    }
+
+    .reason-block {
+      margin-top: 50px;
+      label {
+        font-size: 16px;
+        padding-right: 10px;
+      }
+      select {
+        max-width:234px;
+        display: inline-block;
+        border-radius: 7px;
+        font-size: 16px;
+        height: 27px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 5px;
+      }
+    }
+
+    .cancel-fee-alert {
+        margin-top: 25px;
+    }
+
+    .temp-text {
+      font-size: 14px;
+      max-width: 609px;
+      display: inline-block;
+      text-align: left;
+      color: #727272;
+      margin-bottom: 39px;
+    }
+
+    .co-pay-not-payed {
+      display: inherit;
+      color: red;
+      font-weight: normal;
+      font-size: 16px;
+    }
+
+    .charge-for-cancellation-input {
+      max-width:100px;
+      display:inline-block;
+      height:27px;
+      border-radius:7px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+  } // /.modal-body
+
+
+  //green appointment modal
+  &.appt-modal-success {
+    .modal-header {
+      background-color: $appt-modal-success-color;
+    } //  /.modal-header
+
+    .modal-body {
+      border-left-color: $appt-modal-success-color;
+      border-bottom-color: $appt-modal-success-color;
+      border-right-color: $appt-modal-success-color;
+
+      .appt-modal-btn {
+        &:not(.btn-primary) {
+          background-color: $appt-modal-success-color;
+          &:hover:not([disabled]) {
+            background-color: $appt-modal-success-hover;
+          }
+        }
+      }
+
+      .payed-message {
+        margin-top: 10px;
+        font-size: 14px;
+        color: $appt-modal-success-color;
+      }
+    } //  /.modal-body
+
+  } // /&.appt-modal-success
+
+
+//----------- [ yellow appointment modal ] --------------
+&.appt-modal-warning {
+  .modal-header {
+    background-color: $appt-modal-warning-color;
+  } //  /.modal-header
+
+  .modal-body {
+    border-left-color: $appt-modal-warning-color;
+    border-bottom-color: $appt-modal-warning-color;
+    border-right-color: $appt-modal-warning-color;
+
+    .comment-block {
+      textarea {
+        max-width: 419px;
+      }
+    }
+
+    .appt-modal-btn {
+      width: 145px;
+      &:not(.btn-primary) {
+        background-color: $appt-modal-warning-color;
+        &:hover:not([disabled]) {
+          background-color: $appt-modal-warning-hover;
+        }
+      }
+    }
+  } //  /.modal-body
+} //  /&.appt-modal-warning
+
+  //----------- [ red appointment modal ] --------------
+  &.appt-modal-danger {
+    .modal-header {
+      background-color: $appt-modal-danger-color;
+    } //  /.modal-header
+
+    .modal-body {
+      border-left-color: $appt-modal-danger-color;
+      border-bottom-color: $appt-modal-danger-color;
+      border-right-color: $appt-modal-danger-color;
+
+      .comment-block {
+        textarea {
+          max-width: 419px;
+        }
+      }
+
+      .appt-modal-btn {
+        width: 145px;
+        &:not(.btn-primary) {
+          background-color: $appt-modal-danger-color;
+          &:hover:not([disabled]) {
+            background-color: $appt-modal-danger-hover;
+          }
+        }
+      }
+    } //  /.modal-body
+  } //  /&.appt-modal-danger
+
+
+
+  @media screen and (min-width:768px) {
+    &.appt-modal-vertical-center {
+      text-align: center;
+      .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+      }
+
+      &:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+      }
+    }
+  }
+
+  .add-card-block {
+
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+
+
+     div > iframe {
+      height: 27px !important;
+      padding-top: 2px !important;
+      padding-bottom: 0 !important;
+      padding-left: 5px !important;
+      margin-top: 5px;
+
+      :first-child {
+        margin-top: 10px;
+      }
+    }
+
+    > div:last-child {
+      height: 5em;
+      button {
+        position: absolute;
+        top: 50%;
+      }
+    }
+  }
+}
+.form-control--error {
+  color: red !important;
+  border-color: red !important;
+}
+
+.modal-appointment-detail {
+  .documents-box {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 32px;
+
+    background-color: #F6F8F7;
+  }
+}

@@ -1,0 +1,138 @@
+{
+    "get": {
+      "summary": "get fax details",
+      "parameters": [
+        
+      ],
+      "responses": {
+        "200": {
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "get fax details"
+                  },
+                  "status": {
+                    "type": "int",
+                    "example": 200
+                  },
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "int",
+                          "example": 1
+                        },
+                        "phone": {
+                          "type": "string",
+                          "example": "+1 818 442 2747"
+                        },
+                        "is_read": {
+                          "type": "boolean",
+                          "example": 1
+                        },
+                        "received_at": {
+                          "type": "date-time",
+                          "example": "2019-08-09 01:02:43"
+                        },
+                        "path": {
+                          "type": "string",
+                          "example": "example/example.pdf"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "404": {
+          "description": "Requested object not found.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Requested object not found"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 404
+                  }
+                }
+              }
+            }
+          }
+        },
+        "409": {
+          "description": "Request could not be processed because of conflict.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Request could not be processed because of conflict"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 409
+                  }
+                }
+              }
+            }
+          }
+        },
+        "429": {
+          "description": "Rate limit exceed.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "Rate limit exceed"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 429
+                  }
+                }
+              }
+            }
+          }
+        },
+        "500": {
+          "description": "The server encountered an internal error or misconfiguration and was unable to complete your request.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string,",
+                    "example": "The server encountered an internal error or misconfiguration and was unable to complete your request"
+                  },
+                  "status": {
+                    "type": "int,",
+                    "example": 500
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

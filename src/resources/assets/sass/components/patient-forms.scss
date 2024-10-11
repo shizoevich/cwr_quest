@@ -1,0 +1,233 @@
+.patient-form {
+  color: #404a57;
+  padding-bottom: 40px;
+  height: 100%;
+
+  .form-note-row {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+  }
+}
+
+.patient-form-start {
+}
+
+.patient-form__header {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 26px 0 30px;
+  text-align: center;
+}
+
+.patient-form__header-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.patient-form__header-logo {
+  margin-left: -38px;
+  max-width: 100%;
+}
+
+.patient-form__body {
+  padding: 30px 0;
+  min-height: calc(100% - 120px);
+  display: flex;
+  flex-direction: column;
+
+  &.loading {
+    justify-content: center;
+  }
+
+  .loader {
+    max-width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.inp-group,
+  .form-note-row {
+    padding: 0;
+  }
+
+  & > .container {
+    width: 100%;
+  }
+}
+
+.patient-form__body-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 26px;
+}
+
+.patient-form__body-icon {
+  margin-bottom: 42px;
+  margin-top: 60px;
+  text-align: center;
+
+  img {
+    margin-left: 30px;
+  }
+}
+
+.patient-form__body-text {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 46px;
+
+  .icon-text {
+    margin-right: 16px;
+  }
+}
+
+.page-download {
+  .patient-form__body-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 42px;
+  }
+
+  .buttons-container {
+    margin-top: 98px;
+  }
+}
+
+.agreements {
+  .control-label {
+    display: flex;
+  }
+
+  .checkbox-wrapper {
+    display: block;
+    margin-right: 16px;
+  }
+}
+.document-loader {
+  html,
+  body,
+  #app-forms {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+.loader-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  img {
+    display: block;
+    width: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-download {
+    .patient-form__body-title {
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+
+    .patient-form__body-icon {
+      margin-bottom: 63px;
+      margin-top: 44px;
+
+      img {
+        margin-left: -3px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .patient-form__body {
+    .container {
+      max-width: 1046px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .patient-form__header-logo {
+    margin-left: 0;
+  }
+
+  .patient-form__body {
+    .form-note-row {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .patient-form__header {
+    padding: 20px 0 10px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .patient-form__header-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 0;
+  }
+
+  .patient-form__header-logo {
+    margin-left: 20px;
+    max-height: 43px;
+  }
+
+  .patient-form__body {
+    padding: 0 0 30px;
+  }
+
+  .patient-form__body-title {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 14px;
+    margin-top: 0;
+  }
+
+  .patient-form__body-icon {
+    margin-top: 38px;
+
+    img {
+      margin-left: 0;
+    }
+  }
+
+  .patient-form__body-text {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 8px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .patient-form__buttons {
+    padding: 0 13px;
+  }
+}
+
+.patient-forms-date-filter input {
+  height: 44px!important;
+  border-radius: 6px!important;
+}

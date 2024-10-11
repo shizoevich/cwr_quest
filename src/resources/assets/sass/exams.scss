@@ -1,0 +1,229 @@
+.msform {
+  margin-top: 50px;
+  /*form styles*/
+  #msform {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  #msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 550px;
+    max-width: 100%;
+    margin-left: calc(50% - 275px);
+    /*stacking fieldsets above each other*/
+    position: relative;
+  }
+
+  @media (max-width: 850px) {
+    #msform fieldset {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  /*Hide all except first fieldset*/
+  #msform fieldset:not(:first-of-type) {
+    display: none;
+  }
+
+  /*buttons*/
+  #msform .action-button {
+    width: 100px;
+    background-color: #00a65a;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+  }
+
+  @media (max-width: 360px) {
+    #msform .action-button {
+      width: calc(50% - 12px);
+    }
+  }
+
+  #msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #00a65a;
+  }
+
+  #msform .action-button[disabled] {
+    cursor: not-allowed;
+    background-color: #d2d6de;
+    box-shadow: none;
+  }
+
+  /*headings*/
+  .fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  /*progressbar*/
+  #progressbar {
+    width: 100%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+  }
+
+  #progressbar li {
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 7.1428%;
+    float: left;
+    position: relative;
+  }
+
+  #progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+  }
+
+  /*progressbar connectors*/
+  #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 11px;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+  }
+
+  @media (max-width: 460px) {
+    #progressbar li:before {
+      width: 17px;
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    #progressbar li:after {
+      top: 8px;
+    }
+  }
+
+  #progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+  }
+
+  /*marking active/completed steps green*/
+  /*The number of the step and the connector before it = green*/
+  #progressbar li.active:before, #progressbar li.active:after {
+    background-color: #00a65a;
+    color: white;
+  }
+
+  .radio {
+    font-size: 16px;
+    text-align: left;
+    padding: 0 15px;
+  }
+
+  input[type=radio]:hover {
+    cursor: pointer;
+  }
+
+  circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #d2d6de;
+    stroke-width: 3;
+    stroke-dasharray: 314px 314px;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+
+  circle:nth-child(2n) {
+    stroke: #00a65a;
+  }
+
+  .timer {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .timer h1 {
+    font-weight: normal;
+  }
+
+  .timer-num {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.msform-result {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.training-frame {
+  width: 100%;
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+  iframe  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

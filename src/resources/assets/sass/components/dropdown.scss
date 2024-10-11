@@ -1,0 +1,38 @@
+.dropdown-send {
+    .dropdown-menu {
+        left: auto;
+        right: 0;
+        padding: 0;
+        box-shadow: 0 4px 20px rgba(158, 158, 158, 0.25);
+    }
+
+    .dropdown-menu__item {
+        display: flex;
+        padding: 0;
+
+        a {
+            padding: 14px 28px;
+            color: #404a57;
+            transition: color .3s ease;
+            display: flex;
+            width: 100%;
+
+            path {
+                transition: fill .3s ease;
+            }
+
+            &:hover {
+                background: #f8f8f8;
+                color: #59b9ee;
+            }
+        }
+
+        .menu-item__icon {
+            width: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 40px;
+        }
+    }
+}

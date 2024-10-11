@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Visits",
+    "slug": "visits",
+    "isOvertime": true,
+    "isAmount": false,
+    "data": [
+      {
+        "date": "06/10/2021",
+        "patient_id": 9157,
+        "patient_name": "Karen Stevens",
+        "is_overtime": false,
+        "is_manual": true
+      },
+      {
+        "date": "06/11/2021",
+        "patient_id": 9009,
+        "patient_name": "Allison Truscheit",
+        "is_overtime": true,
+        "is_manual": false
+      }
+    ]
+  },
+  {
+    "title": "Late Cancellation Fee Charges",
+    "slug": "cancellation",
+    "isOvertime": false,
+    "isAmount": true,
+    "data": [
+      {
+        "date": "06/10/2021",
+        "patient_id": 9009,
+        "patient_name": "Allison Truscheit",
+        "amount": 240,
+        "is_manual": false
+      },
+      {
+        "date": "06/11/2021",
+        "patient_id": 9157,
+        "patient_name": "Karen Stevens",
+        "amount": 400,
+        "is_manual": true
+      }
+    ]
+  }
+]
